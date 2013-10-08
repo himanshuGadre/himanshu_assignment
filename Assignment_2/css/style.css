@@ -1,0 +1,73 @@
+*{margin: 0;
+padding: 0;}
+
+img { border: 0; }
+body{
+	font-family: arial;
+}
+
+#wrapper
+{width: 100%;}
+
+#header
+{
+	
+	width: 100%;
+	height: 120px;
+	
+
+	border: 1px solid #000; 
+}
+
+#LogoLogIN
+{
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+#header #LogoLogIN img
+{ 
+position: relative;
+margin: 9px 0 0 100px;
+}
+
+#LogIn
+{ 
+
+height: 20px;
+
+float: right;
+margin: 5px 70px 0 0;
+} 
+
+#LogIn ul{list-style: none;}
+
+#LogIn ul li{float: left;}
+
+#LogIn ul li a
+{
+	display: block;
+	padding: 0 10px;
+	color: #3355aa;
+	font-family: georgia;
+	text-decoration: none;
+}
+#LogIn ul li a:hover
+{text-decoration: underline;}
+
+
+#nav
+{
+
+	width: 100%;
+	height: 40px;
+	background-color: #3355aa;
+
+}
+
+.container
+{
+	width: 960px;
+	margin: 0 auto;
+}
