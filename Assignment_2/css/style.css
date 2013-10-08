@@ -14,25 +14,23 @@ body{
 	
 	width: 100%;
 	height: 120px;
-	
-
 	border: 1px solid #000; 
 }
 
-#LogoLogIN
+#logoLogIN
 {
 	width: 960px;
 	height: 80px;
 	margin: 0 auto;
 }
 
-#header #LogoLogIN img
+#header #logoLogIN img
 { 
 position: relative;
-margin: 9px 0 0 100px;
+margin: 9px 0 0 40px;
 }
 
-#LogIn
+#logIn
 { 
 
 height: 20px;
@@ -41,11 +39,11 @@ float: right;
 margin: 5px 70px 0 0;
 } 
 
-#LogIn ul{list-style: none;}
+#logIn ul{list-style: none;color: #3355aa;}
 
-#LogIn ul li{float: left;}
+#logIn ul li{float: left;}
 
-#LogIn ul li a
+#logIn ul li a
 {
 	display: block;
 	padding: 0 10px;
@@ -53,7 +51,7 @@ margin: 5px 70px 0 0;
 	font-family: georgia;
 	text-decoration: none;
 }
-#LogIn ul li a:hover
+#logIn ul li a:hover
 {text-decoration: underline;}
 
 
@@ -70,4 +68,126 @@ margin: 5px 70px 0 0;
 {
 	width: 960px;
 	margin: 0 auto;
+}
+
+#nav .container ul{list-style: none;
+margin: 0 0 0 12px;}
+
+#nav .container ul li{float: left;}
+
+#nav .container ul li a
+{
+	display: block;
+	padding: 0 20px;
+	color: #fff;
+	font-family: georgia;
+	text-decoration: none;
+	font-style: italic;
+	line-height: 40px;
+
+	text-shadow:2px 2px 2px #000;
+	-moz-text-shadow:2px 2px 2px #000;
+	-o-text-shadow:2px 2px 2px #000;
+	-webkit-text-shadow:2px 2px 2px #000;
+
+
+}
+/*
+#nav .container ul li a:hover
+{}
+*/
+
+#left
+{
+width: 431px;
+float: left;
+}
+
+#left img
+{
+	margin: 35px 0 0 0;
+}
+
+#middle
+{
+width: 222px;
+float: left;
+/* border: 1px solid #000; */
+padding: 62px 10px  0 34px; 
+
+color: #666666;
+}
+
+#middle p
+{
+font-family: georgia;
+font-size: 13px;
+
+line-height: 20px;
+}
+
+h3
+{
+	color: #666666;
+	text-transform: uppercase;
+}
+.bluetext
+{color:#3355aa; 
+margin: 35px 0 0 0;
+
+}
+
+.horizontalLine
+{
+	width: 220px;
+	height: 3px;
+	background-color: #eebe00;
+	margin: 4px 0 20px 0;
+}
+
+.blackHorizontalLine
+{
+	width: 220px;
+	height: 1px;
+	background-color: #f0f0f0;
+	margin: 8px 0 20px 0;
+}
+
+#right
+{
+width: 220px;
+width: auto;
+float: left;
+
+padding: 62px 0 0 20px; 
+}
+
+#right p
+{
+font-family: georgia;
+font-size: 12px;
+font-weight: bold;
+line-height: 20px;
+}
+#right p.author
+{
+font-family: arial;
+font-size: 11px;
+color: #888888;
+}
+
+.clr
+{clear: both;}
+
+.blackText
+{color: #000;}
+
+a.viewMore
+{	
+	font-family: georgia;
+	font-size: 13px;
+	color: #3355aa;
+	font-style: italic;
+	text-decoration: none;
+	
 }
