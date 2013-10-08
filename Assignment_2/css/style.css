@@ -168,12 +168,14 @@ font-family: georgia;
 font-size: 12px;
 font-weight: bold;
 line-height: 20px;
+font-style: italic;
 }
 #right p.author
 {
 font-family: arial;
 font-size: 11px;
 color: #888888;
+font-style: normal;
 }
 
 .clr
