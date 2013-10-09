@@ -1,0 +1,321 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+body {
+font-family: georgia;
+}
+
+a.link{
+	text-decoration: none;
+}
+.clr {
+clear: both;
+}
+
+.clr2 {
+clear: both;
+margin-bottom: 70px;
+}
+
+.clr3 {
+clear: both;
+margin-bottom: 25px;
+}
+
+#wrapper {}
+
+#header {
+height: 120px;
+margin-top: 10px;
+margin-bottom: 35px;
+}
+
+
+#topHeader {
+width: 940px;
+height: 80px;
+margin: 0 auto;
+
+}
+
+a.logo {
+display: block;
+width: 243px;
+height: 61px;
+background: url(../images/Microsave_Logo.gif) no-repeat;
+float: left;
+}
+
+/*
+#header #logoLogIN img { 
+position: relative;
+margin: 9px 0 0 40px;
+}
+
+
+#logIn { 
+height: 20px;
+float: right;
+margin: 5px 70px 0 0;
+} 
+*/
+#topHeader ul {
+list-style: none;
+float: right;
+}
+
+#topHeader ul li {
+float: left;
+}
+
+#topHeader ul li:first-child {
+border-right: 2px solid #3355aa;
+}
+
+#topHeader ul li a {
+
+padding: 5px 10px;
+color: #3355aa;
+
+text-decoration: none;
+}
+
+
+#topHeader ul li a:hover {
+text-decoration: underline;
+}
+
+
+#nav {
+
+height: 40px;
+background-color: #3355aa;
+}
+
+.container {
+width: 940px;
+margin: 0 auto;
+}
+
+#nav .container ul {
+list-style: none;
+float: left;
+}
+
+#nav .container ul li {
+float: left;
+}
+
+#nav .container ul li a {
+display: block;
+padding: 0 20px 0 0;
+color: #fff;
+
+text-decoration: none;
+font-style: italic;
+line-height: 40px;
+text-shadow:2px 2px 2px #000;
+}
+
+/*
+#nav .container ul li a:hover
+{}
+*/
+
+#slider {
+width: 431px;
+float: left;
+margin-right: 40px;
+}
+
+#middle {
+width: 214px;
+float: left;
+
+padding: 27px 40px  0 0; 
+color: #666666;
+}
+
+#middle p {
+
+font-size: 13px;
+line-height: 18px;
+margin-bottom: 10px;
+}
+
+h3 {
+color: #666666;
+text-transform: uppercase;
+border-bottom: 3px solid #eebe00;
+margin-bottom: 15px;
+padding-bottom: 15px;
+font-family: arial;
+font-size: 16px;
+}
+
+.bluetext {
+color:#3355aa; 
+}
+
+/*
+
+.horizontalLine {
+width: 220px;
+height: 3px;
+background-color: #eebe00;
+margin: 4px 0 20px 0;
+}
+
+
+
+.blackHorizontalLine {
+width: 220px;
+height: 1px;
+background-color: #f0f0f0;
+margin: 8px 0 20px 0;
+}
+
+.blackHorizontalLine {
+	border-bottom: 1px solid #f0f0f0;
+}
+
+*/
+
+#right {
+width: 214px;
+
+float: left;
+padding: 27px 0 0 0; 
+}
+
+#right ul {
+	list-style: none;
+}
+
+/*
+#right p {
+
+font-size: 12px;
+font-weight: bold;
+line-height: 20px;
+font-style: italic;
+}
+*/
+
+a.announcements {
+display: block;
+
+font-size: 12px;
+
+line-height: 18px;
+font-style: italic;
+text-decoration: none;
+color: #000;
+margin-bottom:13px;
+}
+
+a.announcements:hover {
+	color: #3355aa;
+	text-decoration: none;
+}
+
+
+#right p.author {
+
+font-family: arial;
+font-size: 9px;
+color: #888888;
+font-style: normal;
+
+margin-bottom:10px; 
+padding-bottom: 10px;
+border-bottom: 1px solid #f0f0f0;
+}
+
+#right p a {
+	text-decoration: none;
+}
+
+.blackText {
+color: #000;
+
+}
+
+a.viewMore {	
+
+font-size: 13px;
+color: #3355aa;
+font-style: italic;
+text-decoration: none;
+}
+
+a.viewMore:hover {
+	text-decoration: underline;
+}
+
+#sectorWeWork {
+
+}
+#sectorWeWork h1 {
+color: #666666;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: -1px;
+font-size: 28px;
+margin-bottom: 28px;
+font-family: arial;
+}
+
+#sectorWeWork ul {
+list-style: none;
+float: left;
+}
+
+#sectorWeWork ul li {
+	width: 165px;
+	max-height: 266px;
+	float: left;
+	border: 1px solid #e6e6e6;
+	border-radius: 10px;
+	margin-right: 13px;
+	padding: 0 5px 5px 5px;
+
+
+}
+
+
+#sectorWeWork ul li a {
+	display: block;
+	text-decoration: none;
+}
+
+#sectorWeWork .noRightMargin {
+	margin-right: 0;
+	padding-top: 9px;
+}
+#sectorWeWork h5 {
+	color: #3355aa;
+
+	font-size: 13px;
+	text-align: center;
+	line-height: 18px;
+	margin: 15px 0; 
+
+}
+
+#sectorWeWork .setImage {
+	margin-bottom: 21px;
+}
+
+#dividerLine {
+	height: 24px;
+	background: url(../images/divider.jpg) no-repeat;
+}
