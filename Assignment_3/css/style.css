@@ -124,10 +124,9 @@ a.logo {
 	text-indent: -1000000px;
 }
 
-a.redText:hover {
+#address table a:hover {
 	color: #dd4422;
 }
-
 
 .assignRight {
 	float: right;
