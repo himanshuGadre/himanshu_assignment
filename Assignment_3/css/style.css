@@ -76,13 +76,21 @@ ul li {
 }
 
 
-#jobHistory h1 , #education h1, #review h1{
+#jobHistory h1,  #review h1{
 	font-family: robotobold;
 	font-size: 24px;
 	color: #444;
 	border-bottom: 1px solid #ebebeb;
 	padding-bottom: 15px;
 	margin-bottom: 20px;
+}
+#education h1 {
+	font-family: robotobold;
+	font-size: 24px;
+	color: #444;
+	border-bottom: 1px solid #ebebeb;
+	padding-bottom: 12px;
+	margin-bottom: 15px;
 }
 
 #jobHistory h4 {
@@ -167,6 +175,7 @@ a.logo {
 
 .mainNav {
 	float: right;
+	margin: -20px 0 0 0;
 }
 
 #header .mainNav ul li a {
@@ -176,10 +185,10 @@ a.logo {
 	font-family: robotobold;
 	text-transform: uppercase;
 	border-left: 0 solid #444;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
-#header .mainNav ul li a:hover {
+#header .mainNav ul li a:hover, #header .mainNav ul.assignRightDashboard li a.active2 {
 	color: #444;
 }
 
@@ -230,7 +239,7 @@ a.logo {
 	background: #444;
 	border-top-left-radius: 5px;
 	box-shadow: 0 1px 6px #d2d2d2;
-	margin: 0 0 30px 0;
+	margin: 0 0 20px 0;
 }
 
 #photoHolder {
@@ -443,7 +452,7 @@ a.logo {
 }
 .educationDetails {
 	width: 279px;
-	height:95px;
+	/*height:85px;*/
 	border: 1px solid #d9d9d9;
 	box-shadow: 0 0 3px #d9d9d9;
 	border-radius: 3px;
@@ -454,7 +463,7 @@ a.logo {
 
 .educationDetailsRight {
 	width: 279px;
-	height:95px;
+	/*height:85px;*/
 	border: 1px solid #d9d9d9;
 	box-shadow: 0 0 3px #d9d9d9;
 	border-radius: 3px;
@@ -465,13 +474,15 @@ a.logo {
 .educationDetails h4, .educationDetailsRight h4 {
 	font-size: 18px;
 	color: #444;
-	margin:0 0 14px 0;
+	margin:0 0 6px 0;
+
 }
 
 .educationDetails h5, .educationDetailsRight h5 {
 	font-size: 14px;
 	color: #444;
-	margin:0 0 14px 0;
+	margin:0 0 8px 0;
+	font-weight: normal;
 }
 
 #review {
@@ -698,7 +709,7 @@ a.day {
 
 #footer ul {
 	float: left;
-	margin: 20px 0 0 325px;
+	margin: 14px 0 0 280px;
 }
 
 #footer ul li a {
@@ -716,5 +727,5 @@ a.day {
 	font-size: 12px;
 	color: #888;
 	text-align: center;
-	margin: 10px 0 0 85px;
+	margin: 8px 0 0 40px;
 }
