@@ -116,7 +116,6 @@ p {
 }
 
 a.logo {
-	display: block;
 	width: 137px;
 	height: 39px;
 	background: url('../images/Langmart_logo.gif') no-repeat;
@@ -125,7 +124,8 @@ a.logo {
 	text-indent: -1000000px;
 }
 
-#address table a:hover {
+
+#address table a:hover, a.redText {
 	color: #dd4422;
 }
 
@@ -219,7 +219,6 @@ a.logo {
 
 #profileTop {
 	width: 680px;
-	min-height: 176px;
 	background: #444;
 	border-top-left-radius: 5px;
 	box-shadow: 0 1px 6px #d2d2d2;
@@ -230,7 +229,7 @@ a.logo {
 	width: 132px;
 	float: left;
 	border-top-left-radius:5px;
-	margin:0 28px 0 0; 
+	margin:0 28px 15px 0; 
 }
 
 #profilePhoto {
@@ -279,9 +278,7 @@ a.logo {
 	width: 16px;
 	height: 16px;
 	position: absolute;
-	
 	float: left;
-	/* margin-left:94px 0 0 91px;  */
 	top :88px;
 	left: 62px;
 	background: url('../images/linkedIn.png') no-repeat;
@@ -305,7 +302,6 @@ a.logo {
 #profileName {
 	width: 295px;
 	float: left;
-	/* margin:0 11px 0 0;  */	
 }
 
 .translatorName {
@@ -331,7 +327,6 @@ a.logo {
 	 font-size: 14px;
 	 color: #fff;
 	 text-shadow :1px 1px 1px #2f2f2f;
-	 margin-top: 5px;
 	 margin-bottom: 6px;
 }
 
@@ -347,7 +342,6 @@ a.logo {
 	color: #bbb;
 	float: right;
 	margin-bottom: 30px;
-	margin-top: 20px;
 }
 
 .whiteText2 {
@@ -360,7 +354,14 @@ a.logo {
 	float: right;
 	margin: 15px 20px 0 0;
 }
+#upgradePlan img {
+	float: right;
+}
 
+.reviewDetail img {
+	float: right;
+	margin: 
+}
 #upgradePlan a {
 	display: block;
 	width: 168px;
