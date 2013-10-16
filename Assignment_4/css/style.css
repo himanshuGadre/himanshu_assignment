@@ -1,0 +1,51 @@
+/* css */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+#wrapper {
+
+}
+
+.container960 {
+	width: 960px;
+  	margin:0 auto;
+}
+
+#header {
+	background: #f0f2f5;
+	box-shadow: 0 2px 5px #cecece;
+}
+
+#header a.logo {
+	display: block;
+	width: 195px;
+	height: 36px;
+	background: url('../images/my_open_courses_logo.jpg') no-repeat;
+	text-indent: 10px;
+	line-height: 50px;
+	float: left;
+
+}
+
+#header input {
+	width: 358px;
+	height: 34px;
+	float: left;
+	border-radius: 3px;
+	border: 1px solid #dddddd;
+	float: left;
+
+}
+
+.clr {
+	clear: both;
+}
