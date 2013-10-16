@@ -140,15 +140,14 @@ a.logo {
 	text-indent: -1000000px;
 }
 
-
-#address table a:hover, a.redText {
+a.redText {
 	color: #dd4422;
 }
 
 .assignRight {
 	float: right;
 	margin-top: 8px;
-	margin-bottom: 8px;
+/*	margin-bottom: 8px;*/
 }
 
 .assignRightDashboard {
@@ -163,14 +162,15 @@ a.logo {
 	border-left: 1px solid #444;
 }
 
-
 #header .container ul li:first-child a {
 	border-left: 0 solid #444;
 }
 
 #header .container ul li .clrLi {
 	clear: both;
+
 }
+
 
 .mainNav {
 	float: right;
@@ -418,14 +418,78 @@ a.logo {
  border-bottom: 1px solid #ebebeb;
  margin-bottom: 40px;
  padding-bottom: 22px;
- width: 610px;
+ font-size: 14px;
+ color: #666;
 }
 
+/*#address ul li {
+	 font-size: 14px;
+ 	content: #666;
+}*/
+
+.addressText {
+	width: 100%;
+	margin-bottom: 22px;
+}
+
+.phone {
+	width: 305px;
+	float: left;
+	margin-bottom: 22px;
+}
+
+.fax {
+	float: left;
+	margin-bottom: 22px;
+}
+
+.email {
+	width: 305px;
+	float: left;
+}
+
+.website {
+	float: left;
+}
+
+#address ul li:before {
+	content: "";
+	width: 25px;
+	height: 17px;
+	float: left;
+}
+
+#address ul li.addressText:before {
+	background: url('../images/address.png') no-repeat;
+}
+
+#address ul li.phone:before {
+	background: url('../images/phone.png') no-repeat;
+}
+
+#address ul li.fax:before {
+	background: url('../images/fax.png') no-repeat;
+}
+
+#address ul li.email:before {
+	background: url('../images/e-mail.png') no-repeat;
+}
+
+#address ul li.website:before {
+	background: url('../images/website.png') no-repeat;
+}
+
+#header .container #address ul li .clrLi2 {
+	clear: both;
+	float: left;
+}
+
+/*
 #address table {
 	font-size: 14px;
 	color: #666;
 }
-
+*/
 #jobHistory {
 	 margin-bottom: 35px;
 }
