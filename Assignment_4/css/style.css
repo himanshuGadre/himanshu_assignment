@@ -11,6 +11,48 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
   border: 0;
   }
 
+ul {
+	list-style: none;
+}
+
+ul li {
+	float: left;
+}
+
+body {
+	font-family: arial;
+	color: #222;
+}
+
+.normalText {
+	font-size: 11px;
+}
+
+.size15PX {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 35px;
+	margin-right: 28px;
+}
+
+.category {
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 15px;
+	margin-right: 10px;
+}
+
+.courses {
+	font-size: 15px;
+	line-height: 15px;
+	color: #888888;
+	margin: 0 10px;
+}
+.nextImage {
+	line-height: 15px;
+}
+
 #wrapper {
 
 }
@@ -23,29 +65,171 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
 #header {
 	background: #f0f2f5;
 	box-shadow: 0 2px 5px #cecece;
+	margin-bottom: 30px;
 }
 
 #header a.logo {
 	display: block;
 	width: 195px;
-	height: 36px;
-	background: url('../images/my_open_courses_logo.jpg') no-repeat;
+	height: 50px;
+	background: url('../images/my_open_courses_logo_50.png') no-repeat;
 	text-indent: 10px;
 	line-height: 50px;
 	float: left;
+	margin-right: 35px;
 
 }
 
-#header input {
+/*#wrapper #header .container960 */
+input[name="search"] {
 	width: 358px;
 	height: 34px;
 	float: left;
 	border-radius: 3px;
 	border: 1px solid #dddddd;
-	float: left;
+	background-color: #fff;	
+	padding-left: 25px;
+	color: #bbbbbb;
+	font-size: 16px;
+}
 
+/*#wrapper #header .container960 */
+input[name="search"]:before {
+	display: block;
+	content: "";
+	width: 20px;
+	height: 33px;
+	background: url('../images/search_icon.png') no-repeat;
+	background-position: left center;
+	float: left;
+}
+
+.assignRight {
+	float: right;
+	margin-right: 22px;
+	line-height: 45px;
+}
+
+
+#content {
+	width: 960px;
+  	margin:0 auto;
+}
+
+#coursePath {
+	padding-bottom: 10px;
+	border-bottom:  1px solid #dcdcdc;
+	margin-bottom: 20px;
+}
+
+#allCourses {
+
+}
+
+#allCourses ul li {
+	width: 218px;
+	border-radius: 3px;
+	border: 1px solid #cccccc;
+	box-shadow: 0 0 2px #cccccc;
+	margin:0 25px 20px 0;
+}
+
+.courseImages {
+	width: 206px;
+	height: 128px;
+	padding:6px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.courseDetails {
+	width: 194px;
+	/*height: 128px;*/
+	padding:0 13px 6px 13px; 
+}
+
+.courseDetails h3 {
+	font-size: 13px;
+	font-weight:bold;
+	color: #225588;
+	/*padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+	margin-bottom: 5px;*/
+}
+
+.greyText {
+	color: #888;
+}
+.courseDetails h5 {
+	font-size: 11px;
+	line-height: 14px;
+/*	padding-bottom: 10px;*/
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+/*	margin-bottom: 5px;*/
+	margin-top: 8px;
+}
+
+.downloadBar {
+	background: #f4f6f8;
+	height: 23px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding:10px 13px 8px 13px;
+}
+
+a.videoDownload {
+	display: block;
+	width: 25px;
+	height: 22px;
+	background: url('../images/video_download.png') no-repeat;
+	line-height: 22px;
+	float: left;
+	margin-right: 7px;
+}
+
+a.comments  {
+	display: block;
+	width: 19px;
+	height: 22px;
+	background: url('../images/comments.png') no-repeat;
+	line-height: 22px;
+	float: left;
+	margin-right: 7px;
+}
+
+a.more {
+	color: #225588;
+	font-size: 13px;
+	text-decoration: none;
+	float: right;
+	line-height: 22px;
+}
+
+.views {
+	font-size: 13px;
+	color: #888;
+	line-height: 22px;
+	float: left;
+	margin-right: 22px;
+}
+
+#footer {
+
+}
+
+#footer ul {
+	padding-left: 16px;
+	color: #225588;
+	text-transform: uppercase;
 }
 
 .clr {
 	clear: both;
+}
+
+.clrLi {
+	clear: both;
+	float: none;
 }
