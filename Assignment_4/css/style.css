@@ -32,7 +32,7 @@ body {
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
-	line-height: 35px;
+	line-height: 50px;
 	margin-right: 28px;
 }
 
@@ -53,6 +53,7 @@ body {
 	line-height: 15px;
 }
 
+/*  Body starts */
 #wrapper {
 
 }
@@ -80,36 +81,46 @@ body {
 
 }
 
+form {
+float: left;
+line-height: 50px;
+}
+
 /*#wrapper #header .container960 */
 input[name="search"] {
 	width: 358px;
 	height: 34px;
-	float: left;
 	border-radius: 3px;
 	border: 1px solid #dddddd;
-	background-color: #fff;	
 	padding-left: 25px;
 	color: #bbbbbb;
 	font-size: 16px;
+	background:#fff url('../images/search_icon.png') no-repeat;
+	background-position: left center;
+	line-height: 28px;
+	box-shadow: 1px 0px 1px #bbb;
 }
 
 /*#wrapper #header .container960 */
-input[name="search"]:before {
-	display: block;
+
+/*input[name="search"]:before {
+	/*display: block;
 	content: "";
 	width: 20px;
 	height: 33px;
 	background: url('../images/search_icon.png') no-repeat;
 	background-position: left center;
 	float: left;
-}
+}*/
 
-.assignRight {
+ul.assignRight {
 	float: right;
-	margin-right: 22px;
-	line-height: 45px;
+	margin-right: 12px;
 }
 
+ul.assignRight li, ul.assignRight li img {
+	line-height: 50px;
+}
 
 #content {
 	width: 960px;
@@ -122,8 +133,11 @@ input[name="search"]:before {
 	margin-bottom: 20px;
 }
 
-#allCourses {
+#coursesHolder {
+}
 
+#allCourses {
+	width: 740px;
 }
 
 #allCourses ul li {
@@ -152,12 +166,12 @@ input[name="search"]:before {
 	font-size: 13px;
 	font-weight:bold;
 	color: #225588;
-	/*padding-bottom: 10px;
-	border-bottom: 1px solid #eee;
-	margin-bottom: 10px;
-	margin-bottom: 5px;*/
 }
 
+.courseDetails h3 a {
+	color: #225588;
+	text-decoration: none;	
+}
 .greyText {
 	color: #888;
 }
@@ -216,13 +230,33 @@ a.more {
 }
 
 #footer {
-
+	border-top: 1px solid #bbb;
 }
 
-#footer ul {
-	padding-left: 16px;
+#footer ul.leftAssign {
+	margin: 15px 0 0 16px;
+	float: left;
+}
+
+#footer ul li a {
 	color: #225588;
 	text-transform: uppercase;
+	font-size: 13px;
+	padding-left: 16px;
+	font-weight: bold;
+}
+#footer ul li:first-child a {
+	padding-left: 0;
+}
+#footer ul li a.normal {
+	font-weight: normal;
+}
+
+#copyright {
+	float: right;
+	margin: 15px 0 0 0;
+	font-size: 13px;
+	color: #888;
 }
 
 .clr {
@@ -232,4 +266,13 @@ a.more {
 .clrLi {
 	clear: both;
 	float: none;
+}
+
+#allCourses ul li.clrLi2 {
+	clear: both;
+	float: none;
+	border-radius: 0px;
+	border: 0px solid #cccccc;
+	box-shadow: 0 0 0 #cccccc;
+	/*margin:0 25px 20px 0;*/
 }

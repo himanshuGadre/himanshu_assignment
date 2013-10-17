@@ -4,15 +4,34 @@
         
         <title>Frontend Assignment 4</title>
         <link href="css/style.css" rel="stylesheet">
+        <script src="js/jquery.vgrid.js"></script>
+        <script src="js/jquery.vgrid.min.js"></script>
+        <script src="js/jquery-1.10.0.min.js"></script>
+
+        <script type="text/javascript">
+            $(function(){
+                    $("#test").vgrid({
+                        easing: "easeOutQuint",
+                        time: 500,
+                        delay: 20,
+                        fadeIn: {
+                            time: 300,
+                            delay: 50
+                        }
+                    });
+                });
+
+        </script>
     </head>
     <body>
     	<div id="wrapper"><!-- wrapper starts -->
     		<div id="header"><!-- header starts -->
     			<div class="container960"><!-- container960 starts -->
     				<a href="#" class="logo" title="My open courses logo"></a>
+                       <form>
+        				    <input type="text" name="search" placeholder="Lectures, Courses">
 
-    				<input type="text" name="search" placeholder="Lectures, Courses">
-
+                        </form>
                     <ul class="assignRight">
                         <li class="size15PX">courses</li>
                         <li><img src="images/user_mage.png"></li>
@@ -37,20 +56,20 @@
                     </ul>
 
                 </div> <!-- coursePath ends -->
+                <div id="coursesHolder"><!-- coursesHolder starts -->
                 <div id="allCourses"><!-- allCourses starts -->
-                    <ul>
+                    <ul id="test">
                         <li>
                             <div class="courseImages"><!-- courseImages starts -->
                                 <img src="images/Aerospace_Engineering.jpg" alt="Aerospace Engineering" title="Aerospace Engineering">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Aerospace Engineering 
-                                    <span class="greyText">(58)</span>
+                                <h3><a href="#"> Aerospace Engineering 
+                                    <span class="greyText">(58)</span></a>
                                 </h3>
                                 <h5>Foundation of Scientific Computing</h5>
                                 <h5>Advanced Control System Design for Aerospace Vehicles</h5>
-                                <h5>Flight dynamics I - Airplane and  
-performance</h5>
+                                <h5>Flight dynamics I - Airplane and  performance</h5>
                             </div> <!-- courseDetails ends -->
                             <div class="downloadBar"><!-- downloadBar starts -->
                                 <a href="#" class="videoDownload"></a>
@@ -69,8 +88,8 @@ performance</h5>
                                 <img src="images/Biotechnology.jpg" alt="Biotechnology" title="Biotechnology">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Biotechnology
-                                    <span class="greyText">(26)</span>
+                                <h3><a href="#">Biotechnology
+                                    <span class="greyText">(26)</span></a>
                                 </h3>
                                 <h5>Enzyme Science and Engineering</h5>
                                 <h5>Thermodynamics</h5>
@@ -93,8 +112,8 @@ performance</h5>
                                 <img src="images/Computer_Science_and_Engineering.jpg" alt="Computer Science and Engineering" title="Computer Science and Engineering">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Computer Science and Engineering 
-                                    <span class="greyText">(88)</span>
+                                <h3><a href="#">Computer Science and Engineering 
+                                    <span class="greyText">(88)</span></a>
                                 </h3>
                                 <h5>Foundation of Scientific Computing</h5>
                                 <h5>Advanced Control System Design for 
@@ -119,8 +138,8 @@ performance</h5>
                                 <img src="images/Mathematics.jpg" alt="Mathematics" title="Mathematics">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Mathematics 
-                                    <span class="greyText">(66)</span>
+                                <h3><a href="#">Mathematics 
+                                    <span class="greyText">(66)</span></a>
                                 </h3>
                                 <h5>Foundation of Scientific Computing</h5>
                                 <h5>Advanced Control System Design for 
@@ -145,8 +164,8 @@ performance</h5>
                                 <img src="images/Automobile_Engineering.jpg" alt="Automobile Engineering" title="Automobile Engineering">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Automobile Engineering 
-                                    <span class="greyText">(58)</span>
+                                <h3><a href="#">Automobile Engineering 
+                                    <span class="greyText">(58)</span></a>
                                 </h3>
                                 <h5>Enzyme Science and Engineering</h5>
                                 <h5>Thermodynamics</h5>
@@ -168,14 +187,13 @@ performance</h5>
                                 <img src="images/Environmental_Science.jpg" alt="Environmental Science" title="Environmental Science">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Environmental Science
-                                    <span class="greyText">(58)</span>
+                                <h3><a href="#">Environmental Science
+                                    <span class="greyText">(58)</span></a>
                                 </h3>
                                 <h5>Foundation of Scientific Computing</h5>
                                 <h5>Advanced Control System Design for 
 Aerospace Vehicles</h5>
-                                <h5>Flight dynamics I - Airplane and  
-performance</h5>
+                                <h5>Flight dynamics I - Airplane and  performance</h5>
                             </div> <!-- courseDetails ends -->
                             <div class="downloadBar"><!-- downloadBar starts -->
                                 <a href="#" class="videoDownload"></a>
@@ -194,13 +212,12 @@ performance</h5>
                                 <img src="images/Aerospace_Engineering.jpg" alt="Aerospace Engineering" title="Aerospace Engineering">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Aerospace Engineering 
-                                    <span class="greyText">(58)</span>
+                                <h3><a href="#">Aerospace Engineering 
+                                    <span class="greyText">(58)</span></a>
                                 </h3>
                                 <h5>Foundation of Scientific Computing</h5>
                                 <h5>Advanced Control System Design for Aerospace Vehicles</h5>
-                                <h5>Flight dynamics I - Airplane and  
-performance</h5>
+                                <h5>Flight dynamics I - Airplane and  performance</h5>
                             </div> <!-- courseDetails ends -->
                             <div class="downloadBar"><!-- downloadBar starts -->
                                 <a href="#" class="videoDownload"></a>
@@ -219,8 +236,8 @@ performance</h5>
                                 <img src="images/Biotechnology.jpg" alt="Biotechnology" title="Biotechnology">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Biotechnology
-                                    <span class="greyText">(26)</span>
+                                <h3><a href="#">Biotechnology
+                                    <span class="greyText">(26)</span></a>
                                 </h3>
                                 <h5>Enzyme Science and Engineering</h5>
                                 <h5>Thermodynamics</h5>
@@ -243,8 +260,8 @@ performance</h5>
                                 <img src="images/Biotechnology.jpg" alt="Biotechnology" title="Biotechnology">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Biotechnology
-                                    <span class="greyText">(26)</span>
+                                <h3><a href="#">Biotechnology
+                                    <span class="greyText">(26)</span></a>
                                 </h3>
                                 <h5>Enzyme Science and Engineering</h5>
                                 <h5>Thermodynamics</h5>
@@ -267,8 +284,8 @@ performance</h5>
                                 <img src="images/Computer_Science_and_Engineering.jpg" alt="Computer Science and Engineering" title="Computer Science and Engineering">
                             </div> <!-- courseImages ends -->
                             <div class="courseDetails"><!-- courseDetails starts -->
-                                <h3>Computer Science and Engineering 
-                                    <span class="greyText">(88)</span>
+                                <h3><a href="#">Computer Science and Engineering 
+                                    <span class="greyText">(88)</span></a>
                                 </h3>
                                 <h5>Foundation of Scientific Computing</h5>
                                 <h5>Advanced Control System Design for 
@@ -287,25 +304,32 @@ performance</h5>
                             </div> <!-- downloadBar ends -->
 
                         </li>
-                        <li class="clrLi"></li>
+                        <li class="clrLi2"></li>
                       
                     </ul>
 
                 </div> <!-- allCourses ends -->
+                </div> <!-- coursesHolder ends -->
+
 
             </div> <!-- content ends -->
             <div id="footer"><!-- footer starts -->
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Disciplines</a></li>
-                    <li><a href="#">Contact us</a></li>
+                <div class="container960"><!-- container960 starts -->
+                    <ul class="leftAssign">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Disciplines</a></li>
+                        <li><a href="#">Contact us</a></li>
 
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li class="clrLi"></li>
-                </ul>
+                        <li><a href="#" class="normal">Privacy Policy</a></li>
+                        <li><a href="#" class="normal">Terms</a></li>
+                        <li class="clrLi"></li>
+                    </ul>
 
+                    <div id="copyright"><!-- copyright starts -->
+                        <span>&copy; 2012 My Open Campus</span>
+                    </div> <!-- copyright ends -->
+                </div> <!-- container960 ends -->
 
 
             </div> <!-- footer ends -->
