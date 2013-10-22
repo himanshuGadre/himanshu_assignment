@@ -152,14 +152,9 @@ a.redText2:hover {
 
 }
 
-/*
-.mainNav {
-	float: right;
-	margin: 0 0 0 0;
-}*/
-.topNav ul.assignRightDashboard li {
+/*.topNav ul.assignRightDashboard li {
 	margin-left: 20px;
-}
+}*/
 
 .topNav ul.assignRightDashboard li a {
 	display: block;
