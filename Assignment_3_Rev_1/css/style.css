@@ -108,7 +108,7 @@ a.logo {
 	float: right;
 }
 
-.topNav ul li{
+.topNav ul li {
 	float: left;
 }
 
@@ -157,6 +157,9 @@ a.redText2:hover {
 	float: right;
 	margin: 0 0 0 0;
 }*/
+.topNav ul.assignRightDashboard li {
+	margin-left: 20px;
+}
 
 .topNav ul.assignRightDashboard li a {
 	display: block;
@@ -164,15 +167,49 @@ a.redText2:hover {
 	color: #666;
 	font-family: robotobold;
 	text-transform: uppercase;
-	border-left: 0 solid #444;
-	margin-left: 20px;
+	border-left: 0 solid #666;
+	padding: 0 5px;
 }
 
-#header .mainNav ul li a:hover, .topNav ul.assignRight li a.active2 {
+.topNav ul.assignRightDashboard li a:hover, .topNav ul.assignRight li a.active2 {
 	color: #444;
 }
 
-			.topNav ul.assignRight li a:before {
+ul.assignRightDashboard li a i {
+		display: block;
+	width: 16px;
+	height: 15px;
+	float: left;
+	margin-right: 10px;
+}
+
+ul.assignRightDashboard li a.dashboard i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 0% -3%;
+}
+ul.assignRightDashboard li a.jobs i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 6% -3%;
+}
+ul.assignRightDashboard li a.translator i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 12% -3%;
+}
+ul.assignRightDashboard li a.translatorActive {
+	color: #444;
+}
+ul.assignRightDashboard li a.translatorActive i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 12% 13%;
+}
+ul.assignRightDashboard li a.language i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 17% -3%;
+}
+ul.assignRightDashboard li a.teams i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 24% -3%;
+}
+
+#header .mainNav ul li a:hover {
+	color: #444;
+}
+
+			/*.topNav ul.assignRight li a:before {
                 float:left;
                 content:"";
                 width: 16px;
@@ -198,7 +235,7 @@ a.redText2:hover {
             .topNav ul.assignRight li a.teams:before {
                 background: url('../images/teams.png') no-repeat;
                 margin-top: 1px;
-            }
+            }*/
 
 #content {
 	border-radius: 10px;
@@ -253,64 +290,56 @@ a.redText2:hover {
 
 #photoHolder ul {
 	position: relative;
+	margin-bottom: 20px;
 }
 
-#photoHolder ul li a{
+#photoHolder ul li a, #photoHolder ul li a i{
 	display: block;
-	width: 16px;
-	height: 16px;
+	width: 19px;
+	height: 18px;
 }
 .twitter {
-/*	display: block;*/
-/*	width: 16px;
-	height: 16px;*/
 	position: absolute;
-	
-	/*float: left;*/
-	/*margin: 63px 0 0 98px; */
 	top :63px;
 	left: 98px;
-	background: url('../images/twitter.png') no-repeat;
-
+}
+#photoHolder ul li a.twitter i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 38% 0%;
 }
 
 .facebook {
-
-/*	width: 16px;
-	height: 16px;*/
 	position: absolute;
-/*	float: left;*/
-	/*margin-left: 80px 0 0 87px;*/
 	top :82px;
 	left: 86px;
-	background: url('../images/facebook.png') no-repeat;
-
+}
+#photoHolder ul li a.facebook i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 44% 0%;
 }
 
 .linkedIn {
-/*	display: block;*/
-/*	width: 16px;
-	height: 16px;*/
 	position: absolute;
-/*	float: left;*/
 	top :96px;
 	left: 68px;
-	background: url('../images/linkedIn.png') no-repeat;
+	background: url('../images/Langmart_Sprite.png') no-repeat 50% 0%;
+}
+#photoHolder ul li a.linkedIn i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 50% 0%;
+}
+
+.currentPlanHolder {
+height: 23px;
 }
 
 .currentPlan {
 	display: block;
-	width: 118px;
-	height: 23px;
+	min-width: 128px;
+/*	height: 23px;*/
 	line-height: 23px;
-	clear: both;
-	
-/*	margin: 0 0 0 21px;
-	padding: 0 0 0 8px;*/
+	padding: 0 2px 0 2px;
 	font-size: 12px;
-	text-shadow :1px 0px 1px #fff;
+	text-shadow :1px 0px 1px #f5b67f;
+	/*background: url('../images/Langmart_Sprite.png') no-repeat 0% 58%;*/
 	background: url('../images/Gold_plan_user_BG.png') no-repeat;
-	background-position: left center;
 }
 
 #profileName {
@@ -349,6 +378,26 @@ a.redText2:hover {
  font-size: 12px;
  color: #fff;
  text-shadow :1px 1px 1px #2f2f2f;
+}
+
+ul.ratings {
+	float: right;
+	margin-bottom: 7px;
+}
+
+ul.ratings li {
+	display:block;
+	width: 17px;
+	height: 17px;
+	float: left;
+}
+
+ul.ratings li {
+	background: url('../images/Langmart_Sprite.png') no-repeat 29% 1%;
+}
+
+ul.ratings li.activeRatings {
+	background: url('../images/Langmart_Sprite.png') no-repeat 29% 15%;
 }
 
 .recommended {
@@ -432,42 +481,64 @@ a.redText2:hover {
 .addressText {
 	margin-bottom: 22px;
 }
-
+#address ul li i {
+	width: 25px;
+	height: 17px;
+	float: left;
+}
+#address ul li.addressText i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 70% 1%;
+}
 .phone {
 	width: 305px;
 	float: left;
 	margin-bottom: 22px;
 }
 
+#address ul li.phone i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 77% 1%;
+}
+
 .fax {
 	float: left;
 	margin-bottom: 22px;
 }
+#address ul li.fax i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 90% 1%;
+}
+
 
 .email {
 	width: 305px;
 	float: left;
 }
+#address ul li.email i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 84% 1%;
+}
+
 
 .website {
 	float: left;
 }
+#address ul li.website i {
+	background: url('../images/Langmart_Sprite.png') no-repeat 98% 1%;
+}
 
-#address ul li:before {
+/*#address ul li:before {
 	content: "";
 	width: 25px;
 	height: 17px;
 	float: left;
-}
+}*/
 #otherProfileHolder #address ul li.clr {
 	clear: both;
 
 }
-#address ul li.addressText:before {
+/*#address ul li.addressText:before {
 	background: url('../images/address.png') no-repeat;
-}
+}*/
 
-#address ul li.phone:before {
+/*#address ul li.phone:before {
 	background: url('../images/phone.png') no-repeat;
 }
 
@@ -481,7 +552,7 @@ a.redText2:hover {
 
 #address ul li.website:before {
 	background: url('../images/website.png') no-repeat;
-}
+}*/
 
 #header .container #address ul li .clrLi2 {
 	clear: both;
@@ -514,6 +585,13 @@ a.redText2:hover {
 	padding-bottom: 15px;
 	margin-bottom: 20px;
 }
+#education i {
+/*	display: inline;*/
+	width: 43px;
+	height: 26px;
+	float: left;
+	background: url('../images/Langmart_Sprite.png') no-repeat 65% 40%;
+}
 #education h2 {
 	font-family: robotobold;
 	font-size: 24px;
@@ -545,20 +623,34 @@ a.redText2:hover {
 	margin: 0 0 16px 0;
 }
 
-.reviewDetail .ratings, .reviewDetailRight .ratings{
+/*.reviewDetail .ratings, .reviewDetailRight .ratings{
 	background: url('../images/5_stars.png') no-repeat;
 	width: 80px;
 	height: 16px;
 	float: right;
 	margin: 15px 5px 0 0;
+}*/
+ul.ratings2 {
+	float: right;
+	margin: 15px 5px 0 0;
 }
 
-/*.jobHolder {
-	 border-bottom: 1px solid #ebebeb;
-	 padding-bottom: 16px;
-	 margin-bottom: 15px;
+ul.ratings2 li {
+	display:block;
+	width: 17px;
+	height: 17px;
+	float: left;
 }
-*/
+
+ul.ratings2 li {
+	background: url('../images/Langmart_Sprite.png') no-repeat 29% 0%;
+}
+
+ul.ratings2 li.activeRatings {
+	background: url('../images/Langmart_Sprite.png') no-repeat 29% 15%;
+}
+
+
 .workPeriod, .workPeriod2 {
 	display: block;
 	color: #aaa;
@@ -650,13 +742,18 @@ a.reviewNames:hover {
 	margin: -40px 0 0 570px;
 }
 
-a.floatRight {
+a.floatRight, a.floatRight2 {
 	float: right;
+	display: block;
+	width: 12px;
+	height: 16px;
+	background: url('../images/Langmart_Sprite.png') no-repeat 5% 38%;
 }
 
 a.floatRight2 {
-	float: right;
 	margin: 0 20px 0 0;
+	background: url('../images/Langmart_Sprite.png') no-repeat 0% 38%;
+
 }
 
 #reviewDetailsHolder {
@@ -710,10 +807,6 @@ a.floatRight2 {
 	margin-bottom: 10px;
 }
 .reviewDetail h5, .reviewDetailRight h5 {
-	/*font-size:16px;
-	color: #222;
-	float: left;*/
-	/*margin: 28px 6px 0 10px; */
 	margin-bottom: 5px;
 }
 
@@ -727,7 +820,6 @@ a.floatRight2 {
 	display: block;
 	font-size:12px;
 	color: #666;
-	/*margin: 50px 0 0 -85px;*/ 
 	margin: 0 0 0 0;
 }
 
@@ -757,11 +849,12 @@ a.floatRight2 {
             float: left;
             font-size: 18px;
         }
- #messageTop .headMessage h2:before {
-            background: url('../images/messages.gif');
+
+#messageTop .headMessage h2 i {
+            background: url('../images/Langmart_Sprite.png') no-repeat 2% 93%;
             float: left;
-            content: "";
             margin-right: 5px;
+            display: block;
             width: 40px;
             height: 40px;
         }
@@ -837,7 +930,6 @@ a.floatRight2 {
 }
 
 .messageDetails img {
-/*	margin: 10px 0 0 0;*/
 	float: left;
 }
 
@@ -863,24 +955,6 @@ a.floatRight2 {
 	float: left;
 }
 
-/*.dec15 {
-	display: block;
-	width: 75px;
-	height: 15px;
-	border-radius: 2px;
-	color: #666;
-	background: #e5e5e5;
-	font-size: 11px;
-	margin: 25px 0 10px 0;
-	text-align: center;
-	float: left;
-}
-.dec15 a {
-	display: block;
-	width: 75px;
-	height: 15px;
-}
-*/
 #footer {
 	background: #353535;
 	min-height: 130px;
@@ -890,6 +964,9 @@ a.floatRight2 {
 	float: left;
 	margin: 14px 0 0 280px;
 }
+#footer ul li {
+	float: left;
+}
 
 #footer ul li a {
 	display: block;
@@ -897,6 +974,10 @@ a.floatRight2 {
 	color: #d9d9d9;
 	border-left: 1px solid #d9d9d9;
 	padding: 0 7px; 
+}
+
+#footer ul li a:hover {
+	color: #999;
 }
 
 #footer ul li:first-child a{
