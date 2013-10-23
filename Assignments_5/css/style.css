@@ -1,0 +1,123 @@
+/* css */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+body {
+	font-family: arial;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.clr {
+	clear: both;
+}
+a {
+	color: #2255aa;
+	text-decoration: none;
+}
+
+ #wrapper {
+
+}
+
+.container990 {
+	width: 990px;
+  	margin:0 auto;
+}
+
+#header {
+	background :#d7e4ff;
+	min-height: 75px;
+	border-bottom: 1px solid #bbccff;
+	margin-bottom: 40px;
+}
+
+/*#header a*/ a.logo {
+	width: 135px;
+	height: 35px;
+	background: #2255aa;
+	float: left;
+	margin-right: 95px;
+	margin-top: 20px;
+
+}
+
+#searchHolder {
+	width: 460px;
+	float: left;
+	color: #2255aa;
+	margin-top: 15px;
+	margin-right: 125px;
+}
+ul.country {
+	margin-bottom: 8px;
+}
+
+#searchHolder ul.country li {
+	float: left;
+}
+
+#searchHolder ul.country li a, ul.register li a {
+	/*background: transparent;
+	margin: 0;
+	width: 0;
+	height: 0;*/
+
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 16px;
+	text-shadow: 1px 1px 1px #fff;
+}
+#searchHolder ul.country li.clr {
+	clear: both;
+	float: none;
+}
+
+input[name=searchField] {
+	width: 369px;
+	height: 28px;
+	border: 1px solid #d2d5e9;
+	border-right: 0px solid #d2d5e9;
+	float: left;
+
+}
+
+input[name=submit] {
+	width: 88px;
+	height: 28px;
+	border: 1px solid #2255aa;
+	background: #2255aa;
+	color: #fff;
+	text-shadow: 1px 1px 1px #2255aa;
+	float: left;
+	line-height: 30px;
+}
+
+.register {
+	float: right;
+}
+ul.register li {
+	float: left;
+}
+
+{
+
+}
+
+#searchHolder ul.register li.clr {
+	clear: both;
+	float: none;
+}
+
