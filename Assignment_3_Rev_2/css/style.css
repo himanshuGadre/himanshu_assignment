@@ -124,6 +124,11 @@ a.redText:hover {
 a.redText2:hover {
 	color: #dd4422;
 }
+
+.topNav {
+	margin-right: 5px;
+}
+
 .assignRight {
 	float: right;
 	margin-top: 8px;
@@ -132,8 +137,9 @@ a.redText2:hover {
 
 .assignRightDashboard {
 	float: right;
+	margin-right: 5px;
 }
-.topNav {}
+
 
 .topNav ul.assignRight li a {
 	display: block;
@@ -153,7 +159,7 @@ a.redText2:hover {
 }
 
 .topNav ul.assignRightDashboard li {
-	margin-left: 20px;
+	margin-left: 25px;
 }
 
 .topNav ul.assignRightDashboard li.clr {
@@ -168,7 +174,7 @@ a.redText2:hover {
 	font-family: robotobold;
 	text-transform: uppercase;
 	border-left: 0 solid #666;
-	padding: 0 5px;
+/*	padding: 0 5px;*/
 }
 
 .topNav ul.assignRightDashboard li a:hover, .topNav ul.assignRight li a.active2 {
@@ -177,7 +183,7 @@ a.redText2:hover {
 
 ul.assignRightDashboard li a i {
 		display: block;
-	width: 16px;
+	width: 20px;
 	height: 16px;
 	float: left;
 	margin-right: 10px;
@@ -227,7 +233,7 @@ ul.assignRightDashboard li a.teams i {
 
 #profileTopWrapper {
 	/*width: 680px;*/
-	padding: 15px 20px 17px 20px;
+	padding: 15px 20px 15px 20px;
 	background: #444;
 	border-top-left-radius: 5px;
 	box-shadow: 0 1px 6px #d2d2d2;
@@ -238,11 +244,10 @@ ul.assignRightDashboard li a.teams i {
 }
 
 #photoHolder {
-	max-width: 116px;
+	max-width: 143px;
 	float: left;
 	border-top-left-radius:5px;
-/*	margin:0 28px 15px 0; */
-	margin:  0 22px 0 0;
+	margin:  0 27px 0 0;
 
 }
 
@@ -323,7 +328,7 @@ ul.assignRightDashboard li a.teams i {
 }
 
 #profileName {
-	max-width: 245px;
+	max-width: 230px;
 	margin: 0 10px 0 0;
 	float: left;
 }
@@ -395,7 +400,7 @@ ul.ratings li.active {
 }
 
 #upgradePlan {
-	max-width: 235px;
+	max-width: 230px;
 	float: right;
 /*	margin: 15px 20px 0 0;*/
 }
@@ -405,7 +410,6 @@ ul.ratings li.active {
 
 .reviewDetail img {
 	float: right;
-	margin: 
 }
 #upgradePlan a {
 	display: block;
@@ -435,6 +439,7 @@ ul.ratings li.active {
 	font-size: 12px;
 	color: #bbb;
 	float: right;
+	text-align: right;
 }
 
 .whiteText3 {
