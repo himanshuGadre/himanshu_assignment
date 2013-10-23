@@ -823,16 +823,25 @@ a.floatRight2 {
 }
 .day {	
 			float: left;
-			padding: 2px 6px;
+			width: 188px;
+			/*height: 9px;*/
 			/*line-height: 11px;*/
-			font-size: 11px;
-			background: #e5e5e5;
-			border-radius: 2px;
-			color: #666;
-			margin:0 0 10px 15px;
-			text-transform: uppercase;
 			
+			background: url('../images/message_day_divider.png') no-repeat;;
+			border-radius: 2px;
+			padding-bottom: 15px;
+			background-position: left bottom;
+}
+.day h6 {
 
+	font-size: 11px;
+	color: #666;
+	margin:0 0 10px 15px;
+	text-transform: uppercase;
+	padding: 2px 6px;
+	background: #e5e5e5;
+	border-radius: 2px;
+	display: inline-block;
 }
 
 #messageTop h5, .date h5 {
@@ -852,11 +861,11 @@ a.floatRight2 {
 
 .msg {
 	float: left;
+	margin: 0 20px;
 }
 
 .horizontalDivider {
-	background: url('../images/message_day_divider.png') no-repeat;
-	background-position: left top;
+	
 	width: 260px;
 	height: 9px;
 	float: left;
@@ -868,7 +877,7 @@ a.floatRight2 {
 	clear: both;*/
 	border-bottom: 1px solid #ebebeb;
 	padding:  0 0 10px 0;
-	margin: 5px 20px 0 15px; 
+	/*margin: 5px 20px 0 15px; */
 }
 
 .messageDetails a {
