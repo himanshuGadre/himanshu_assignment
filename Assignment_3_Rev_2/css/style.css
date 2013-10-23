@@ -678,6 +678,7 @@ a.reviewImage {
 	width: 63px;
 	height: 63px;
 	float: left;
+	margin-right: 7px;
 }
 a.reviewNames {
 	display: block;
@@ -800,9 +801,7 @@ a.floatRight2 {
 #rightContent {
 	width: 280px;
 	float: right;
-	/*background: #fbfbfb;*/
 	border-top-right-radius: 5px;
-	/*margin: 0 0 0 5px*/;
 }
 
 #messageTop {
