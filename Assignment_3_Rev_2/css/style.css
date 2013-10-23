@@ -339,7 +339,7 @@ ul.assignRightDashboard li a.teams i {
 	font-size: 24px;
 	color: #fff;
 	text-shadow: 1px 1px 1px #2b2b2b;
-/*	margin: 15px 0 1px 0;*/
+	margin: 0px 0 8px 0;
 }
 
 .translatorDetails {
@@ -391,7 +391,7 @@ ul.ratings li.active {
 	color: #bbb;
 	float: right;
 	margin-bottom: 30px;
-		margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .whiteText2 {
@@ -687,6 +687,7 @@ a.reviewNames {
 	color: #222;
 	float: left;
 	margin-bottom: 5px;
+	margin-top: 15px;
 }
 
 a.reviewNames:hover {
@@ -733,6 +734,15 @@ a.floatRight2 {
 	margin: 0  20px 20px 0;
 }
 
+.reviewDetailTop {
+	/*width: 273px;*/
+	border-bottom:1px solid #ebebeb;
+	/*margin-top: 2px;*/
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+
+}
+
 .reviewLast {
 	margin: 0  0 20px 0;
 }
@@ -761,7 +771,7 @@ a.floatRight2 {
 	/*margin-top: 10px;*/
 }
 
-.horizontalLine {
+/*.horizontalLine {
 	display: block;
 	width: 280px;
 	height: 1px;
@@ -769,7 +779,7 @@ a.floatRight2 {
 	float: right;
 	margin-top: 2px;
 	margin-bottom: 10px;
-}
+}*/
 .reviewDetail h5, .reviewDetailRight h5 {
 	margin-bottom: 5px;
 }
@@ -797,7 +807,7 @@ a.floatRight2 {
 
 #messageTop {
 
-	margin: 20px 30px 0 10px;
+	margin: 20px 30px 0 20px;
 	text-transform: uppercase;
 	border-top-right-radius: 5px;
 }
@@ -815,7 +825,7 @@ a.floatRight2 {
         }
 
 #messageTop .headMessage h2 i {
-            background: url('../images/Langmart_Sprite.png') no-repeat 4% 14%;
+            background: url('../images/Langmart_Sprite.png') no-repeat 5% 14%;
             float: left;
             margin-right: 5px;
             display: block;
@@ -837,7 +847,7 @@ a.floatRight2 {
             background: #dd4422;
 }
 .day {	
-			float: left;
+			/*float: left;*/
 			width: 188px;
 			/*height: 9px;*/
 			/*line-height: 11px;*/
@@ -851,7 +861,7 @@ a.floatRight2 {
 
 	font-size: 11px;
 	color: #666;
-	margin:0 0 10px 15px;
+	margin:0 0 10px 20px;
 	text-transform: uppercase;
 	padding: 2px 6px;
 	background: #e5e5e5;
@@ -870,7 +880,7 @@ a.floatRight2 {
 
 .dayMessage {
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 /*	padding: 0 0 0 20px;*/
 }
 
@@ -890,7 +900,7 @@ a.floatRight2 {
 .messageDetails {
 	border-bottom: 1px solid #ebebeb;
 	padding:  0 0 10px 0;
-	margin: 0 0 20px 0; 
+	margin: 0 0 10px 0; 
 }
 
 .messageDetails a {
