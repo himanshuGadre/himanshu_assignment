@@ -27,6 +27,11 @@ a {
 	text-decoration: none;
 }
 
+p, p.a {
+	color: #959595;
+	font-size: 12px;
+	line-height: 18px;
+}
  #wrapper {
 
 }
@@ -102,18 +107,15 @@ input[name=submit] {
 	color: #fff;
 	text-shadow: 1px 1px 1px #2255aa;
 	float: left;
-	line-height: 30px;
+	line-height: 28px;
 }
 
 .register {
 	float: right;
 }
+
 ul.register li {
 	float: left;
-}
-
-{
-
 }
 
 #searchHolder ul.register li.clr {
@@ -121,3 +123,59 @@ ul.register li {
 	float: none;
 }
 
+#content {
+	width: 990px;
+	margin: 0 auto;
+}
+
+#leftContent {
+	width: 210px;
+	float: left;
+}
+
+.blueHeading  {
+	color: #2255aa;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+}
+
+.tempMargin {
+	margin-bottom: 60px;
+}
+
+.blueTextNormal, .blueTextNormal.a {
+	color: #2255aa;
+	font-size: 12px;
+	display: block;
+	margin-bottom: 18px;
+}
+
+.blackHeading {
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.profileSchoolLogo {
+	height: 170px;
+	padding: 8px 0 0 35px;
+	border-bottom:1px solid #e5e5ee; 
+}
+
+.profileDetails {
+	padding: 20px 0 0 0;
+
+}
+
+#middleContent {
+	width: 500px;
+	float: left;
+}
+
+#rightContent {
+	width: 280px;
+	float: left;
+}
