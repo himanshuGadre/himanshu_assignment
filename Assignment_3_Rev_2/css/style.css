@@ -297,19 +297,29 @@ ul.assignRightDashboard li a.teams i {
 }
 
 .currentPlanHolder {
-height: 23px;
+
 }
 
 .currentPlan {
-	display: block;
-	min-width: 128px;
-/*	height: 23px;*/
-	line-height: 23px;
-	padding: 0 2px 0 2px;
+	
+	min-height: 20px;
+	line-height: 20px;
+	float: left;
+	padding: 0 2px 0 8px;
 	font-size: 12px;
 	text-shadow :1px 0px 1px #f5b67f;
-	/*background: url('../images/Langmart_Sprite.png') no-repeat 0% 58%;*/
-	background: url('../images/Gold_plan_user_BG.png') no-repeat;
+	background: url('../images/Langmart_Sprite.png') no-repeat 0% 46%;
+	border-left: 1px solid #d35b17;
+	/*background: url('../images/Gold_plan_user_BG.png') no-repeat;*/
+	/*display: block;*/
+}
+
+.currentPlanHolder .currentPlan i, .bgRightEnd {
+/*	display: inline-block;*/
+	min-width: 17px;
+	min-height: 20px;
+	float: left;
+	background: url('../images/Langmart_Sprite.png') no-repeat 0% 50%;
 }
 
 #profileName {
@@ -873,11 +883,9 @@ a.floatRight2 {
 }
 
 .messageDetails {
-	/*float: left;
-	clear: both;*/
 	border-bottom: 1px solid #ebebeb;
 	padding:  0 0 10px 0;
-	/*margin: 5px 20px 0 15px; */
+	margin: 0 0 20px 0; 
 }
 
 .messageDetails a {
