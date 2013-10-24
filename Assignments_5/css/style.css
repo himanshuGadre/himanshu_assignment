@@ -207,11 +207,53 @@ ul.register li {
 
 
 #middleContent {
-	width: 500px;
+	width: 460px;
 	float: left;
+	padding: 0 20px;
+}
+.gallery {
+
+}
+
+.heading {
+	background: #ccddff;
+	height: 29px;
+	border-bottom: 1px solid #ccddff;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+}
+
+.heading h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	line-height: 30px;
+	/*margin-left: 10px;*/
+	text-indent: 10px;
 }
 
 #rightContent {
-	width: 280px;
+	width: 260px;
+	float: right;
+	padding: 0 0 0 20px;
+}
+/*.marginBottom {
+	margin-bottom: 10px;
+}*/
+.competingSchool {
+
+}
+ul.competingSchool li {
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+ul.competingSchool li a{
+	font-size: 12px;
+	line-height: 12px;
+}
+
+ul.competingSchool li img {
 	float: left;
+	margin-right: 10px;
 }
