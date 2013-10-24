@@ -47,14 +47,14 @@ p, p.a , .profileDetails p.a {
 	margin-bottom: 40px;
 }
 
-/*#header a*/ a.logo {
+/*#header .container990 a,*/ a.logo {
 	width: 136px;
 	height: 36px;
 	float: left;
 	margin:20px 95px 19px 0;
 	margin-top: 20px;
 	background: url('../images/BS_School_sprite.png') no-repeat -33px 0px;
-
+	text-indent: -10000px;
 }
 
 #searchHolder {
