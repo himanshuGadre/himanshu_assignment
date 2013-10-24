@@ -49,12 +49,13 @@ p, p.a {
 }
 
 /*#header a*/ a.logo {
-	width: 135px;
-	height: 35px;
-	background: #2255aa;
+	width: 136px;
+	height: 36px;
+	/*background: #2255aa;*/
 	float: left;
 	margin-right: 95px;
 	margin-top: 20px;
+	background: url('../images/BS_School_sprite.png') no-repeat -33px 0px;
 
 }
 
@@ -64,6 +65,7 @@ p, p.a {
 	color: #2255aa;
 	margin-top: 15px;
 	margin-right: 125px;
+	margin-right: 95px;
 }
 ul.country {
 	margin-bottom: 8px;
@@ -85,6 +87,7 @@ ul.country {
 	margin-right: 16px;
 	text-shadow: 1px 1px 1px #fff;
 }
+
 #searchHolder ul.country li.clr {
 	clear: both;
 	float: none;
@@ -112,7 +115,8 @@ input[name=submit] {
 
 .register {
 	float: right;
-	line-height: 75px;
+	/*line-height: 75px;*/
+	margin-top: 40px;
 }
 
 ul.register li {
@@ -124,9 +128,31 @@ ul.register li {
 	float: none;
 }
 
+ul.register li a i.twitter {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url('../images/BS_School_sprite.png') no-repeat -60px -61px;
+}
+
+
+ul.register li a i.facebook {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url('../images/BS_School_sprite.png') no-repeat -83px -61px;
+}
+
+ul.register li a.icons {
+	margin-right: 0px;
+	margin-top: -4px;
+}
+
 #content {
 	width: 990px;
 	margin: 0 auto;
+	background: url('../images/2_horizontal_lines.jpg');
+	background-repeat: repeat-y;
 }
 
 #leftContent {
@@ -191,10 +217,58 @@ ul.register li {
 }
 .profileDetails ul.overview li a i{
 	width: 16px;
-	height: 14px;
+	height: 16px;
 	float: left;
-	margin-top: 8px;
+	margin: 6px 5px 0 0;
 	background: #ccc;
+}
+
+.profileDetails ul.overview li.Overview1 a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -3px;
+}
+
+.profileDetails ul.overview li.faculty a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -23px;
+}
+
+.profileDetails ul.overview li.infrastructure a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -42px;
+}
+
+.profileDetails ul.overview li.methodologies a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -62px;
+}
+
+.profileDetails ul.overview li.studentExchange a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -83px;
+}
+
+.profileDetails ul.overview li.location a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -103px;
+}
+
+.profileDetails ul.overview li.curriculum a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -122px;
+}
+
+.profileDetails ul.overview li.globalExposure a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -142px;
+}
+
+.profileDetails ul.overview li.corporateInterface a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -164px;
+}
+
+.profileDetails ul.overview li.alumniInterface a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -183px;
+}
+
+.profileDetails ul.overview li.boardGovernance a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -203px;
+}
+
+.profileDetails ul.overview li.placements a i {
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -223px;
 }
 
 .profileDetails ul.overview li a i.next{
@@ -202,7 +276,7 @@ ul.register li {
 	height: 14px;
 	float: right;
 	margin-top: 8px;
-	background: #ccc;
+	background: url('../images/BS_School_sprite.png') no-repeat -5px -243px;
 }
 
 
@@ -213,6 +287,10 @@ ul.register li {
 }
 .gallery {
 
+}
+
+.gallery ul.imageGallery {
+	
 }
 
 .heading {
