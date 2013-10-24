@@ -112,13 +112,17 @@ input[name=submit] {
 	line-height: 28px;
 }
 
-.register {
+.user {
 	float: right;
-	/*line-height: 75px;*/
 	margin-top: 40px;
 }
+.register {
+	float: left;
+	/*line-height: 75px;*/
+	
+}
 
-ul.register li {
+ul.register li, ul.socialIcons li {
 	float: left;
 }
 
@@ -127,24 +131,27 @@ ul.register li {
 	float: none;
 }
 
-ul.register li a i.twitter {
+/*ul.register li a.icons {
+	margin-right: 0px;
+	margin-top: -4px;
+}*/
+ul.socialIcons {
+	float: right;
+	/*margin-top: 35px;*/
+}
+
+ul.socialIcons li a i.twitter {
 	display: block;
 	width: 24px;
 	height: 24px;
 	background: url('../images/BS_School_sprite.png') no-repeat -60px -61px;
 }
 
-
-ul.register li a i.facebook {
+ul.socialIcons li a i.facebook {
 	display: block;
 	width: 24px;
 	height: 24px;
 	background: url('../images/BS_School_sprite.png') no-repeat -83px -61px;
-}
-
-ul.register li a.icons {
-	margin-right: 0px;
-	margin-top: -4px;
 }
 
 #content {
@@ -296,6 +303,7 @@ margin-left: 40px;
 	float: left;
 	margin-right: 10px;
 }
+
 .heading {
 	background: #ccddff;
 	height: 29px;
@@ -318,12 +326,11 @@ margin-left: 40px;
 	float: right;
 	padding: 0 0 0 20px;
 }
-/*.marginBottom {
-	margin-bottom: 10px;
-}*/
+
 .competingSchool {
 
 }
+
 ul.competingSchool li {
 	height: 35px;
 	margin-bottom: 10px;
