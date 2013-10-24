@@ -27,7 +27,7 @@ a {
 	text-decoration: none;
 }
 
-p, p.a {
+p, p.a , .profileDetails p.a {
 	color: #959595;
 	font-size: 12px;
 	line-height: 18px;
@@ -50,7 +50,6 @@ p, p.a {
 /*#header a*/ a.logo {
 	width: 136px;
 	height: 36px;
-	/*background: #2255aa;*/
 	float: left;
 	margin:20px 95px 19px 0;
 	margin-top: 20px;
@@ -63,7 +62,6 @@ p, p.a {
 	float: left;
 	color: #2255aa;
 	margin-top: 15px;
-	margin-right: 125px;
 	margin-right: 95px;
 }
 ul.country {
@@ -118,12 +116,15 @@ input[name=submit] {
 }
 .register {
 	float: left;
-	/*line-height: 75px;*/
 	
 }
 
 ul.register li, ul.socialIcons li {
 	float: left;
+}
+
+ul.socialIcons li a {
+	display: block;
 }
 
 #searchHolder ul.register li.clr {
@@ -137,7 +138,6 @@ ul.register li, ul.socialIcons li {
 }*/
 ul.socialIcons {
 	float: right;
-	/*margin-top: 35px;*/
 }
 
 ul.socialIcons li a i.twitter {
@@ -164,6 +164,7 @@ ul.socialIcons li a i.facebook {
 #leftContent {
 	width: 210px;
 	float: left;
+	margin-right: 20px;
 }
 
 .blueHeading  {
@@ -196,10 +197,11 @@ ul.socialIcons li a i.facebook {
 	height: 170px;
 	padding: 8px 0 0 35px;
 	border-bottom:1px solid #e5e5ee; 
+	margin-bottom: 20px;
 }
 
 .profileDetails {
-	padding: 20px 0 0 0;
+	/*padding: 20px 0 0 0;*/
 }
 .overview {}
 
@@ -288,7 +290,8 @@ ul.socialIcons li a i.facebook {
 #middleContent {
 	width: 460px;
 	float: left;
-	padding: 0 20px;
+	padding: 0 10px;
+	margin-right: 20px;
 }
 
 .gallery {
@@ -302,6 +305,10 @@ margin-left: 40px;
 .gallery ul.imageGallery li {
 	float: left;
 	margin-right: 10px;
+}
+.gallery ul.imageGallery li.clr {
+	clear: both;
+	float: none;
 }
 
 .headingHolder {
@@ -330,7 +337,6 @@ margin-left: 40px;
 #rightContent {
 	width: 260px;
 	float: right;
-	padding: 0 0 0 20px;
 }
 
 .competingSchool {
