@@ -43,7 +43,6 @@ p, p.a {
 
 #header {
 	background :#d7e4ff;
-	min-height: 75px;
 	border-bottom: 1px solid #bbccff;
 	margin-bottom: 40px;
 }
@@ -53,7 +52,7 @@ p, p.a {
 	height: 36px;
 	/*background: #2255aa;*/
 	float: left;
-	margin-right: 95px;
+	margin:20px 95px 19px 0;
 	margin-top: 20px;
 	background: url('../images/BS_School_sprite.png') no-repeat -33px 0px;
 
@@ -279,20 +278,24 @@ ul.register li a.icons {
 	background: url('../images/BS_School_sprite.png') no-repeat -5px -243px;
 }
 
-
 #middleContent {
 	width: 460px;
 	float: left;
 	padding: 0 20px;
 }
+
 .gallery {
 
 }
 
 .gallery ul.imageGallery {
-	
+margin-left: 40px;
 }
 
+.gallery ul.imageGallery li {
+	float: left;
+	margin-right: 10px;
+}
 .heading {
 	background: #ccddff;
 	height: 29px;
