@@ -112,6 +112,7 @@ input[name=submit] {
 
 .register {
 	float: right;
+	line-height: 75px;
 }
 
 ul.register li {
@@ -167,8 +168,43 @@ ul.register li {
 
 .profileDetails {
 	padding: 20px 0 0 0;
-
 }
+.overview {}
+
+
+.last {
+	width: 8px;
+	height: 14px;
+	background: #ccc;
+}
+.profileDetails ul.overview li {
+	height: 29px;
+	border-bottom: 1px solid #e5e5ee;
+}
+
+.profileDetails ul.overview li a {
+	display: block;
+	color: #2255aa;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.profileDetails ul.overview li a i{
+	width: 16px;
+	height: 14px;
+	float: left;
+	margin-top: 8px;
+	background: #ccc;
+}
+
+.profileDetails ul.overview li a i.next{
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-top: 8px;
+	background: #ccc;
+}
+
 
 #middleContent {
 	width: 500px;
