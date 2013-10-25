@@ -1,0 +1,5 @@
+/* CSS */
+.span4, .span8 {
+background: #ccc;
+min-height: 20px;
+}
