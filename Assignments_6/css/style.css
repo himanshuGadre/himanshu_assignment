@@ -1,5 +1,57 @@
 /* CSS */
-.span4, .span8 {
+
+#wrapper {
+
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7,
+ .span8, .span9, .span10, .span11, .span12  {
 background: #ccc;
 min-height: 20px;
+}
+
+body {
+	font-family: arial;
+}
+
+.header {
+
+}
+a.logo {
+	display: block;
+	widows: 90px;
+	height: 18px;
+	background: #000;
+	margin:14px 0 17px 10px; 
+}
+ul.nav {
+	float: right;
+	margin: 20px 20px 11px 0;
+}
+ul.nav li {
+	float: left;
+	margin-left: 40px;
+}
+
+ul.nav li a {
+	display: block;
+	color: #027ac6;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+ul.nav li a:hover {
+	color: #333;
+}
+
+.blackBG {
+	background: #333;
+	padding: 60px 0 0 0;
+}
+h1 {
+	font-family: georgia;
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+	font-weight: normal;
 }
