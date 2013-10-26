@@ -46,12 +46,40 @@ ul.nav li a:hover {
 
 .blackBG {
 	background: #333;
-	padding: 60px 0 0 0;
 }
+
 h1 {
 	font-family: georgia;
 	text-align: center;
 	font-size: 48px;
 	color: #fff;
 	font-weight: normal;
+	margin: 55px 0 55px 0;
+}
+.formHolder {
+	background: #fff;
+}
+.setPadding {
+padding: 0 10px 0 10px;
+width: 280px;
+}
+
+.blackHeading {
+	display: block;
+	color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+input[name=submit] {
+	min-width: 240px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	border: 1px solid #222;
+	background: url('../images/Shareist_sprite.png') no-repeat 0px -444px;
+
 }
