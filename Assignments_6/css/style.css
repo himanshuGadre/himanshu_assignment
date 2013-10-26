@@ -4,11 +4,11 @@
 
 }
 
-.span1, .span2, .span3, .span4, .span5, .span6, .span7,
+/*.span1, .span2, .span3, .span4, .span5, .span6, .span7,
  .span8, .span9, .span10, .span11, .span12  {
 background: #ccc;
 min-height: 20px;
-}
+}*/
 
 body {
 	font-family: arial;
@@ -42,6 +42,7 @@ a.logo {
 	height: 18px;
 	background: url('../images/Shareist_sprite.png') no-repeat -12px -8px;
 	margin:14px 0 17px 10px; 
+	text-indent: -10000px;
 }
 ul.nav {
 	float: right;
@@ -67,6 +68,7 @@ ul.nav li a:hover, ul.nav li a.active {
 	background: #333;
 	padding-bottom: 50px;
 	margin-bottom: 50px;
+	box-shadow: 0 3px 5px #d8d8d8;
 }
 
 h1 {
@@ -132,8 +134,8 @@ a.blueText {
 	font-size: 15px;
 	font-weight: bold;
 	color: #4390ce;
-/*	margin-bottom: 30px;*/
 }
+
 /*.setPadding {
 	padding: 20px;
 }
@@ -182,5 +184,8 @@ background: url('../images/Shareist_sprite.png') no-repeat -10px -273px;
 h6 {
 	font-size: 18px;
 	color: #027ac6;
-	margin-bottom: 15px;
+	margin:0 0 25px 0;
+}
+.bottomShadow {
+	
 }
