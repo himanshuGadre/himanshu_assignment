@@ -17,15 +17,25 @@ body {
 .header {
 
 }
+
 ul, ol {
 	list-style: none;
 }
+
+p {
+	font-size: 15px;
+	color: #666;
+	line-height: 22px;
+	text-align: justify;
+}
+
 p.greyText {
 	font-size: 13px;
 	line-height: 20px;
 	color: #888;
 	margin: 25px 20px 0 20px;
 }
+
 a.logo {
 	display: block;
 	width: 90px;
@@ -55,6 +65,8 @@ ul.nav li a:hover, ul.nav li a.active {
 
 .blackBG {
 	background: #333;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 h1 {
@@ -64,6 +76,15 @@ h1 {
 	color: #fff;
 	font-weight: normal;
 	margin: 55px 0 55px 0;
+}
+
+h2 {
+	font-family: georgia;
+	text-align: center;
+	font-size: 38px;
+	color: #333;
+	font-weight: normal;
+	margin: 0 0 25px 0;
 }
 .formHolder {
 	background: #fff;
@@ -118,7 +139,7 @@ a.blueText {
 }
 */
 ul.publishing {
-margin: 0; 
+margin: 25px 0 0 0; 
 }
 
 ul.publishing li {
@@ -154,3 +175,12 @@ ul.publishing li i.measurement {
 background: url('../images/Shareist_sprite.png') no-repeat -10px -273px;
 }
 
+.row .span4 img {
+	margin-bottom: 15px;
+}
+
+h6 {
+	font-size: 18px;
+	color: #027ac6;
+	margin-bottom: 15px;
+}
