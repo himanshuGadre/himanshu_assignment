@@ -28,9 +28,9 @@ p.greyText {
 }
 a.logo {
 	display: block;
-	widows: 90px;
+	width: 90px;
 	height: 18px;
-	background: #000;
+	background: url('../images/Shareist_sprite.png') no-repeat -12px -8px;
 	margin:14px 0 17px 10px; 
 }
 ul.nav {
@@ -49,7 +49,7 @@ ul.nav li a {
 	font-size: 15px;
 }
 
-ul.nav li a:hover {
+ul.nav li a:hover, ul.nav li a.active {
 	color: #333;
 }
 
@@ -67,7 +67,8 @@ h1 {
 }
 .formHolder {
 	background: #fff;
-	min-width: 240px;
+	/*min-width: 240px;*/
+	width: 240px;
 	padding: 30px 20px 25px 20px;
 }
 .setPadding {
@@ -101,7 +102,7 @@ input[name=submit] {
 }
 
 input[type="text"], input[type="password"] {
-	width: 240px;
+	width: 226px;
 	border-radius: 0px;
 	height: 28px;
 }
@@ -117,16 +118,20 @@ a.blueText {
 }
 */
 ul.publishing {
+margin: 0; 
 }
 
 ul.publishing li {
 	float: left;
+	/*max-width: 205px;*/
+	width: 205px;
 }
 
 ul.publishing li i {
 	display: block;
 	width: 140px;
 	height: 116px;
+	margin:0 0 30px 32px;
 }
 ul.publishing li span {
 	display: block;
@@ -138,14 +143,14 @@ ul.publishing li span {
 }
 
 ul.publishing li i.contentResearch {
-background: url('../images/Shareist_sprite.png') no-repeat 10px -40px;
+background: url('../images/Shareist_sprite.png') no-repeat -10px -40px;
 }
 
 ul.publishing li i.distribution {
-background: url('../images/Shareist_sprite.png') no-repeat 10px -40px;
+background: url('../images/Shareist_sprite.png') no-repeat -10px -153px;
 }
 
 ul.publishing li i.measurement {
-background: url('../images/Shareist_sprite.png') no-repeat 10px -40px;
+background: url('../images/Shareist_sprite.png') no-repeat -10px -273px;
 }
 
