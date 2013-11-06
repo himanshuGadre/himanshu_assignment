@@ -12,23 +12,34 @@
 
           <script>
 
-        $(document).ready (function(){
-            $(".box h3").click(function(){
-              // $(this).on("click");
+        // $(document).ready (function(){
+        //     $(".box h3").click(function(){
+            
+        //         $(".content").slideUp();
+     
+        //       // alert (current);
+        //        $(this).siblings(".content").slideDown();
+        //        $(this).off("click");
+
+        //        $(this).on("click");
+
+
+            
+        //     });
+        	
+        // });
+
+
+$(document).ready (function(){
+            $(".box h3").on("click", function(){
+            
                 $(".content").slideUp();
      
               // alert (current);
                $(this).siblings(".content").slideDown();
+               $(this).off("click");
 
-
-               // $(this).off("click.namespace").on("click.namespace");
-
-               // $(this).attr("disabled","disabled");
-
-             // $(this).click(function(event){
-             //    event.stopPropagation();
-             // });
-            
+                    
             });
         	
         });

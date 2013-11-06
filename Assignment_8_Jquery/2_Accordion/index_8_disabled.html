@@ -12,22 +12,24 @@
 
           <script>
 
-        $(document).ready (function(){
+        $(document).ready(function(){
+
             $(".box h3").click(function(){
-              // $(this).on("click");
+
                 $(".content").slideUp();
-     
-              // alert (current);
+
+                // $(this).siblings(".content").slideDown();
+                // alert($("this"));
+
+         
+
+              if($(this).next("div").css("display")=="none")
+              {
                $(this).siblings(".content").slideDown();
+              }
+               
 
 
-               // $(this).off("click.namespace").on("click.namespace");
-
-               // $(this).attr("disabled","disabled");
-
-             // $(this).click(function(event){
-             //    event.stopPropagation();
-             // });
             
             });
         	

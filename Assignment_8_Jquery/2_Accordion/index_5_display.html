@@ -12,26 +12,30 @@
 
           <script>
 
-        $(document).ready (function(){
-            $(".box h3").click(function(){
-              // $(this).on("click");
-                $(".content").slideUp();
-     
-              // alert (current);
-               $(this).siblings(".content").slideDown();
-
-
-               // $(this).off("click.namespace").on("click.namespace");
-
-               // $(this).attr("disabled","disabled");
-
-             // $(this).click(function(event){
-             //    event.stopPropagation();
-             // });
+        // $(document).ready (function(){
+        //     $(".box h3").click(function(){
             
-            });
+        //         $(".content").slideUp();
+     
+        //       // alert (current);
+        //        $(this).siblings(".content").slideDown();
+
+            
+        //     });
         	
-        });
+        // });
+
+$(document).ready(function() {
+    $(".box h3").click(function() {
+      if($(this).next("div").is(":visible")){
+        $(this).next("div").slideUp();
+      } else {
+        $(".box .content").slideUp("slow");
+        $(this).next("div").slideToggle("slow");
+      }
+    });
+  });
+
     </script>
     </head>
     <body>
