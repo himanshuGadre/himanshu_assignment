@@ -1,0 +1,38 @@
+/* css */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+  ul.nav{
+  	list-style: none;
+  }
+
+  ul.nav li {
+   	float: left;
+   	margin-right: 10px;
+   }
+#box1, #box2, #box3,#box4 {
+	width: 560px;
+	float: left;
+
+
+}
+
+/*Rev 1*/
+.box {
+  width: 560px;
+    display: none;
+}
+
+
+/*Rev 1*/
+
+

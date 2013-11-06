@@ -1,0 +1,195 @@
+/* CSS */
+
+#wrapper {
+
+}
+
+/*.span1, .span2, .span3, .span4, .span5, .span6, .span7,
+ .span8, .span9, .span10, .span11, .span12  {
+background: #ccc;
+min-height: 20px;
+}*/
+
+body {
+	font-family: arial;
+}
+ul.publishing li.clr {
+	clear: both;
+	float: none;
+}
+
+.header {
+
+}
+
+ul, ol {
+	list-style: none;
+}
+
+p {
+	font-size: 15px;
+	color: #666;
+	line-height: 22px;
+	text-align: justify;
+}
+
+p.greyText {
+	font-size: 13px;
+	line-height: 20px;
+	color: #888;
+	margin: 25px 20px 0 20px;
+}
+
+a.logo {
+	display: block;
+	width: 90px;
+	height: 18px;
+	background: url('../images/Shareist_sprite.png') no-repeat -12px -8px;
+	margin:14px 0 17px 10px; 
+	text-indent: -10000px;
+}
+ul.nav {
+	float: right;
+	margin: 20px 20px 11px 0;
+}
+ul.nav li {
+	float: left;
+	margin-left: 40px;
+}
+
+ul.nav li a {
+	display: block;
+	color: #027ac6;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+ul.nav li a:hover, ul.nav li a.active {
+	color: #333;
+}
+
+.blackBG {
+	background: #333;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 5px #d8d8d8;
+}
+
+h1 {
+	font-family: georgia;
+	text-align: center;
+	font-size: 48px;
+	color: #fff;
+	font-weight: normal;
+	margin: 55px 0 55px 0;
+}
+
+h2 {
+	font-family: georgia;
+	text-align: center;
+	font-size: 38px;
+	color: #333;
+	font-weight: normal;
+	margin: 0 0 25px 0;
+}
+.formHolder {
+	background: #fff;
+	/*min-width: 240px;*/
+	width: 240px;
+	padding: 30px 20px 25px 20px;
+}
+.setPadding {
+padding: 0 10px 0 10px;
+width: 280px;
+}
+
+.blackHeading {
+	display: block;
+	color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+form {
+margin: 0 0 0 0;
+}
+
+input[name=submit] {
+	min-width: 240px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	border: 1px solid #222;
+	background: url('../images/Shareist_sprite.png') no-repeat 0px -444px;
+	text-shadow:0px -1px 1px #222;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 226px;
+	border-radius: 0px;
+	height: 28px;
+}
+
+a.blueText {
+	font-size: 15px;
+	font-weight: bold;
+	color: #4390ce;
+}
+
+/*.setPadding {
+	padding: 20px;
+}
+*/
+ul.publishing {
+margin: 25px 0 0 0; 
+}
+
+ul.publishing li {
+	float: left;
+	/*max-width: 205px;*/
+	width: 205px;
+}
+
+ul.publishing li i {
+	display: block;
+	width: 140px;
+	height: 116px;
+	margin:0 0 30px 32px;
+}
+ul.publishing li span {
+	display: block;
+	max-width: 200px;
+	font-size: 18px;
+	color: #fff;
+	text-shadow:0px -2px 2px #000;
+	text-align: center;
+}
+
+ul.publishing li i.contentResearch {
+background: url('../images/Shareist_sprite.png') no-repeat -10px -40px;
+}
+
+ul.publishing li i.distribution {
+background: url('../images/Shareist_sprite.png') no-repeat -10px -153px;
+}
+
+ul.publishing li i.measurement {
+background: url('../images/Shareist_sprite.png') no-repeat -10px -273px;
+}
+
+.row .span4 img {
+	margin-bottom: 15px;
+}
+
+h6 {
+	font-size: 18px;
+	color: #027ac6;
+	margin:0 0 25px 0;
+}
+.bottomShadow {
+	
+}

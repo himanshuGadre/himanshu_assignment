@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+        <title>Jquery-Himanshu</title>
+        <!-- Bootstrap -->
+    	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js">
+        </script>
+
+          <script>
+        $(document).ready (function(){
+
+        	$(".box1,.box2,.box3,.box4").hide();
+
+	        	$("#Btn1").click(function()
+	        	{
+	        		$(".box1,.box2,.box3,.box4").hide();
+	        		$(".box1").show();
+	        	});
+
+	        	$("#Btn2").click(function()
+	        	{
+	        		$(".box1,.box2,.box3,.box4").hide();
+	        		$(".box2").show();
+	        	});
+
+
+	        	$("#Btn3").click(function()
+	        	{
+	        		$(".box1,.box2,.box3,.box4").hide();
+	        		$(".box3").show();
+	        	});
+
+	        	$("#Btn4").click(function()
+	        	{
+	        		$(".box1,.box2,.box3,.box4").hide();
+	        		$(".box4").show();
+	        	});
+
+	        	$("#BtnAll").click (function (){
+	        		$(".box1,.box2,.box3,.box4").hide();
+	        	});
+        });
+    </script>
+    </head>
+    <body>
+    <div class="container"><!-- container starts -->
+    <ul class="nav clearfix">
+		<li><a href="#" class="btn btn-primary" id="Btn1">show 1</a></li>
+		<li><a href="#" class="btn btn-primary" id="Btn2">show 2</a></li>
+		<li><a href="#" class="btn btn-primary" id="Btn3">show 3</a></li>
+		<li><a href="#" class="btn btn-primary" id="Btn4">show 4</a></li>
+		<li><a href="#" class="btn btn-success" id="BtnAll">Hide All</a></li>
+	</ul>
+
+	<div class="box1"><h1>Heading 1.</h1></div>
+
+	<div class="box2"><h1>Heading 2.</h1></div>
+
+	<div class="box3"><h1>Heading 3.</h1></div>
+
+	<div class="box4"><h1>Heading 4.</h1></div>
+
+	</div> <!--container ends -->
+
+    </body>
+</html>

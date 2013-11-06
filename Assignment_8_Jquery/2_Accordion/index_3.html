@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+        <title>Jquery-Accordion 3</title>
+        <!-- Bootstrap -->
+    	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js">
+        </script>
+
+          <script>
+        $(document).ready (function(){
+        	$(".content").slideUp();
+        	$(".content1").slideDown();
+
+        	$(".box1 h3").click(function(){
+        		$(".content").slideUp();
+        		$(".content1").slideToggle();
+        		
+        	});
+
+        	$(".box2 h3").click(function(){
+        		$(".content").slideUp();
+        		$(".content2").slideDown();
+        		
+        	});
+
+        	$(".box3 h3").click(function(){
+        		$(".content").slideUp();
+        		$(".content3").slideDown();
+        	});
+
+        });
+    </script>
+    </head>
+    <body>
+    <div class="container"><!-- container starts -->
+
+	<div class="box1"><!-- box1 starts -->		
+		<h3>Heading 1.</h3>		
+
+		<div class="content1 content"><!-- content starts -->
+			<p>
+				Column Selection can be used to select a rectangular area of a file. Column selection doesn't operate via a separate mode, instead it makes use of multiple selections.You can use additive selections to select multiple blocks of text, or subtractive selections to remove a block.		
+			</p>
+		</div> <!--content ends -->
+	</div> <!-- box1 ends -->
+
+	<div class="box2"><!-- box2 starts -->		
+		<h3>Heading 2.</h3>		
+
+		<div class="content2 content"><!-- content starts -->
+			<p>
+				Column Selection can be used to select a rectangular area of a file. Column selection doesn't operate via a separate mode, instead it makes use of multiple selections.You can use additive selections to select multiple blocks of text, or subtractive selections to remove a block.		
+			</p>
+		</div> <!--content ends -->
+	</div> <!-- box2 ends -->
+
+	<div class="box3"><!-- box1 starts -->		
+		<h3>Heading 3.</h3>		
+
+		<div class="content3 content"><!-- content starts -->
+			<p>
+				Column Selection can be used to select a rectangular area of a file. Column selection doesn't operate via a separate mode, instead it makes use of multiple selections.You can use additive selections to select multiple blocks of text, or subtractive selections to remove a block.		
+			</p>
+		</div> <!--content ends -->
+	</div> <!-- box3 ends -->
+
+	</div> <!--container ends -->
+
+    </body>
+</html>

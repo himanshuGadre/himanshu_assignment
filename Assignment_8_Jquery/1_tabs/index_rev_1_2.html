@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+        <title>Jquery-Himanshu</title>
+        <!-- Bootstrap -->
+    	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js">
+        </script>
+
+          <script>
+        $(document).ready (function(){
+
+        	
+        	
+
+        	$("#tab1").show();
+        	// $("#box1").show();
+
+	        	$(".btn").click(function()
+	        	{
+
+		
+        		var current = $(this).attr("href");
+        		$(".box").hide();
+        		$(current).show();
+        	});
+
+	        		
+	        	
+
+	        
+        });
+    </script>
+    </head>
+    <body>
+    <div class="container"><!-- container starts -->
+    <ul class="nav clearfix">
+		<li><a href="#tab1" class="btn btn-primary btn1">show 1</a></li>
+		<li><a href="#tab2" class="btn btn-primary btn2">show 2</a></li>
+		<li><a href="#tab3" class="btn btn-primary btn3">show 3</a></li>
+		<li><a href="#tab4" class="btn btn-primary btn4">show 4</a></li>
+		<!-- <li><a href="#tab" class="btn btn-success btnHide">Hide</a></li> -->
+	</ul>
+
+	<div id="tab1" class="box"><h1>Heading 1.</h1></div>
+
+	<div id="tab2" class="box"><h1>Heading 2.</h1></div>
+
+	<div id="tab3" class="box"><h1>Heading 3.</h1></div>
+
+	<div id="tab4" class="box"><h1>Heading 4.</h1></div>
+
+	</div> <!--container ends -->
+
+    </body>
+</html>
