@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <head>
+        
+        <title>Tic Tac Toe</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <!-- Bootstrap  -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    	<script src="js/jquery-1.10.2.js"></script>
+        <link href="css/style_bootstrap.css" rel="stylesheet">
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+        	var count = 0;
+
+        	$(".box").click(function(){
+        		count++;
+        		//alert(count);
+
+        		if (count%2 == 0) {
+        			$(this).children("a.circle").show();
+        			$(this).off("click");
+        		}
+        		else 
+        		{
+        		
+        		$(this).children("a.cross").show();
+        		$(this).off("click");
+        		};
+        	    
+        	});
+        });
+//alert("working!");
+        </script>
+    </head>
+    <body>
+          <div class="wrapper"><!-- wrapper starts -->
+          	<div class="container"><!-- container starts -->
+          		<div class="row"><!-- row starts -->
+
+	          		<div class="span1"><!-- span1 starts -->
+		          		<a href="#" class="cross">X</a>
+		          		<a href="#" class="circle">O</a>
+	          		</div> <!--span1 ends -->
+
+                    <div class="span1"><!-- span1 starts -->
+                        <a href="#" class="cross">X</a>
+                        <a href="#" class="circle">O</a>
+                    </div> <!--span1 ends -->
+
+                    <div class="span1"><!-- span1 starts -->
+                        <a href="#" class="cross">X</a>
+                        <a href="#" class="circle">O</a>
+                    </div> <!--span1 ends -->	          		
+
+          		</div> <!--row ends -->
+
+                <div class="row"><!-- row starts -->
+
+                    <div class="span1"><!-- span1 starts -->
+                        <a href="#" class="cross">X</a>
+                        <a href="#" class="circle">O</a>
+                    </div> <!--span1 ends -->
+
+                    <div class="span1"><!-- span1 starts -->
+                        <a href="#" class="cross">X</a>
+                        <a href="#" class="circle">O</a>
+                    </div> <!--span1 ends -->
+                    
+                    <div class="span1"><!-- span1 starts -->
+                        <a href="#" class="cross">X</a>
+                        <a href="#" class="circle">O</a>
+                    </div> <!--span1 ends -->                   
+
+                </div> <!--row ends -->
+
+                <div class="row"><!-- row starts -->
+
+                    <div class="span1"><!-- span1 starts -->
+                        <a href="#" class="cross">X</a>
+                        <a href="#" class="circle">O</a>
+                    </div> <!--span1 ends -->
+
+                    <div class="span1"><!-- span1 starts -->
+                        <a href="#" class="cross">X</a>
+                        <a href="#" class="circle">O</a>
+                    </div> <!--span1 ends -->
+                    
+                    <div class="span1"><!-- span1 starts -->
+                        <a href="#" class="cross">X</a>
+                        <a href="#" class="circle">O</a>
+                    </div> <!--span1 ends -->                   
+
+                </div> <!--row ends -->
+
+
+          	</div> <!--container ends -->
+          </div> <!--wrapper ends -->
+
+        <!-- <script src="js/bootstrap.js"></script>
+
+	    
+	     <script src="js/bootstrap-transition.js"></script>
+		 <script src="js/bootstrap-collapse.js"></script> -->
+    </body>
+</html>
