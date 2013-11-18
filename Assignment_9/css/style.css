@@ -132,18 +132,38 @@ font-weight: normal;
 text-shadow:0 0 6px #000;
 }
 
-.yellowText {
+.yellowText, {
 	color:#ffbb44;
 	font-style: italic;
 	font-weight: bold;
 }
 
-.leftImage {
+.sliderImage {
 	float: left;
-	width: 525px;
-	height: 235px;
+	width: 516px;
+	height: 226px;
+	border-radius: 5px;
+	border: 1px solid #444444;
+	box-shadow: 0 0 5px #000; 
 	margin-right: 15px;
+	overflow: hidden;
 }
+.sliderContent {
+	width: 380px;
+	float: right;
+	font-family: georgia;
+
+}
+
+.sliderContent h6 {
+	color: #ffcc44;
+	font-size: 18px;
+	line-height: 20px;
+	margin: 20px 0 0 0;
+	font-style: italic;
+	font-weight: normal;
+}
+
 
 /*.setWidth {
 	width: 100%;
