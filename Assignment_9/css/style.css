@@ -1,0 +1,253 @@
+ CSS */
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+  dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+  article, aside, canvas, command, details, fieldset,
+  figcaption, figure, footer, group, header, hgroup, legend,
+  mark, menu, meter, nav, output, progress, section, summary,
+  time, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  }
+
+body {
+	 font-family:"Times New Roman", Times, serif;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+p {	
+}
+
+.clear {
+ clear: both;
+ float: none;
+}
+
+
+/* Body Begin */
+
+#wrapper {}
+
+.navbar .container {
+	margin: 0 auto;
+	width: 940px;
+ }
+
+#header {
+	box-shadow: 0px 1px 5px #3b3b3b	;
+
+	background-image:linear-gradient(bottom, #ebf0f7, #ffffff);
+	background-image: -moz-linear-gradient(bottom, #ebf0f7, #ffffff);
+	background-image: -o-linear-gradient(bottom, #ebf0f7, #ffffff);
+	background-image: -webkit-linear-gradient(bottom, #ebf0f7, #ffffff);
+	background-image: -ms-linear-gradient(bottom, #ebf0f7, #ffffff);	
+}
+
+a.logo {
+	display: block;
+	position: absolute;
+	width: 200px;
+	height: 65px;
+	float: left;
+	background: #fff url('../images/MicroSave_Logo.jpg') no-repeat;
+	background-position: center center;
+	text-indent: -10000px;
+	z-index: 999;
+	box-shadow: 0px 0px 5px #bbbdc0;
+	border-bottom-left-radius:4px; 
+	border-bottom-right-radius:4px; 
+}
+
+
+.setRelative {
+	position: relative;
+}
+
+.navbar-inner {
+	background: url('../images/MIcrosave_header_BG.gif') repeat-x left top;
+}
+.navbar {
+	margin:0; 
+}
+
+.navbar .mainNav {
+	float: right;
+	margin: 0 0 0 0;
+}
+
+.navbar .mainNav li {
+	float: left;
+	background: url('../images/divider_Line.jpg') no-repeat right bottom;
+}
+
+.navbar .mainNav li.empty {
+	width: 2px;
+	height: 47px;
+	background: url('../images/divider_Line.jpg')no-repeat left bottom ;
+}
+
+/*.navbar .mainNav li:first-child {
+	background: url('../images/divider_Line.jpg') ;
+}*/
+
+.navbar .mainNav li a {
+	display: block;
+	text-align: center;
+	width: 92px;
+	color: #3355aa;
+	font-size: 15px;
+	line-height: 17px;
+	font-style: italic;
+	padding:15px 14px;
+
+}
+
+.navbar .mainNav li a:hover, .navbar .mainNav li a.active {
+
+	color: #222222;
+	background: #fff url('../images/divider_Line.jpg') no-repeat right bottom;
+}
+
+
+.sliderWrapper {	
+	background: url('../images/slider_BG.jpg');
+	min-height: 442px;
+}
+
+.headingSlider {
+
+}
+
+h1{
+color: #fff;
+font-size: 28px;
+line-height: 30px;
+text-align: center;
+margin-top: 55px;
+font-weight: normal;
+text-shadow:0 0 6px #000;
+}
+
+.yellowText {
+	color:#ffbb44;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.leftImage {
+	float: left;
+	width: 525px;
+	height: 235px;
+	margin-right: 15px;
+}
+
+/*.setWidth {
+	width: 100%;
+}*/
+
+/* prev / next links 
+.cycle-prev, .cycle-next { 
+	display:block; 
+	text-indent:-99999px;
+	position: absolute; 
+	top: 220px; 
+	width: 30px; 
+	opacity:.3; filter: alpha(opacity=0); 
+	z-index: 800; 
+	height: 30px; 
+	cursor: pointer; 
+	margin: 0 10px;
+}
+.cycle-prev { 
+	left: 0;  
+	background: url(../images/prev.png) left center no-repeat;
+}
+.cycle-next { 
+	right: 0; 
+	background: url(../images/next.png) right center no-repeat;
+}
+.cycle-prev:hover, .cycle-next:hover { 
+	opacity: .7; 
+	filter: alpha(opacity=70) 
+}
+
+.disabled { 
+	opacity: .5; 
+	filter:alpha(opacity=50); 
+}
+
+/* pager */
+
+.cycle-pager { 
+    text-align: center; 
+    width: 100%; 
+    z-index: 500; 
+    position: absolute; 
+    /*top: 400px; */
+    top: 90%; 
+    overflow: hidden;
+}
+.cycle-pager span { 
+    font-family: arial; 
+    font-size: 50px; 
+    width: 10px; 
+    height: 10px; 
+    display: inline-block; 
+    color: #838383; 
+    cursor: pointer; 
+    margin-right: 10px;
+}
+.cycle-pager span.cycle-pager-active { 
+	color: #fff;
+}
+.cycle-pager > * { 
+	cursor: pointer;
+}
+
+/* pager */
+
+/*ul.slider {
+	margin-left: 0;
+}
+
+ul.slider li img {
+float: right;	
+}
+
+ul.slider .sliderText {
+	max-width: 440px;	
+	position: absolute;
+	top: 115px;
+	left: 80px;
+	top: 12%;
+left: 8.5%;
+}
+
+ul.slider .sliderText h1 {
+	color: #fff;
+	font-size: 36px;
+	line-height: 38px;
+	font-family: 'TitilliumWeb-Bold';
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+ul.slider .sliderText h4 {
+	font-family: arial;
+	color: #eee;
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+ul.slider .sliderText p {
+	font-family: arial;
+	font-size: 14px;
+	line-height: 19px;
+	color: #82878b;
+}
+*/
