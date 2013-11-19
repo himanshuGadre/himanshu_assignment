@@ -20,6 +20,9 @@ ul, ol {
 }
 
 p {	
+	color: #888;
+	font-size: 14px;
+	line-height: 18px;
 }
 
 .clear {
@@ -76,7 +79,7 @@ a.logo {
 
 .navbar .mainNav {
 	float: right;
-	margin: 0 0 0 0;
+	margin: 2px 0 0 0;
 }
 
 .navbar .mainNav li {
@@ -96,29 +99,59 @@ a.logo {
 
 .navbar .mainNav li a {
 	display: block;
-	text-align: center;
+	/*text-align: center;*/
 	width: 92px;
 	color: #3355aa;
 	font-size: 15px;
 	line-height: 17px;
 	font-style: italic;
 	padding:15px 14px;
+	padding:15px 3px 15px 14px;
 
+}
+.mainNav li a i {
+	display: block;
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 10px;
+}
+
+.mainNav li.home a i {
+	background: url('../images/Microsave_sprite.png') no-repeat -31px -10px;
+}
+.mainNav li.about a i {
+	background: url('../images/Microsave_sprite.png') no-repeat -9px -32px;
+}
+
+/*.mainNav li.about a:hover i {
+	background: url('../images/Microsave_sprite.png') no-repeat -31px -32px;
+}*/
+
+.mainNav li.blog a i {
+	background: url('../images/Microsave_sprite.png') no-repeat -9px -54px;
+}
+.mainNav li.contact a i {
+	background: url('../images/Microsave_sprite.png') no-repeat -9px -76px;
 }
 
 .navbar .mainNav li a:hover, .navbar .mainNav li a.active {
 
 	color: #222222;
 	background: #fff url('../images/divider_Line.jpg') no-repeat right bottom;
+	text-decoration: none;
 }
 
 
 .sliderWrapper {	
 	background: url('../images/slider_BG.jpg');
-	min-height: 442px;
+	/*min-height: 442px;*/
 }
-
+.sliderHolder {
+	margin-bottom: 70px;
+}
 .headingSlider {
+	margin: 55px 0 40px 0;
 
 }
 
@@ -127,21 +160,24 @@ color: #fff;
 font-size: 28px;
 line-height: 30px;
 text-align: center;
-margin-top: 55px;
+margin: 0;
 font-weight: normal;
 text-shadow:0 0 6px #000;
 }
 
-.yellowText, {
+.yellowText {
 	color:#ffbb44;
 	font-style: italic;
 	font-weight: bold;
 }
+ul.slider {
+	margin: 0;
+}
 
 .sliderImage {
 	float: left;
-	width: 516px;
-	height: 226px;
+	width: 518px;
+	height: 228px;
 	border-radius: 5px;
 	border: 1px solid #444444;
 	box-shadow: 0 0 5px #000; 
@@ -149,7 +185,9 @@ text-shadow:0 0 6px #000;
 	overflow: hidden;
 }
 .sliderContent {
-	width: 380px;
+	/*width: 380px;*/
+	max-width: 360px;
+	margin:20px 40px 0 0;
 	float: right;
 	font-family: georgia;
 
@@ -158,10 +196,120 @@ text-shadow:0 0 6px #000;
 .sliderContent h6 {
 	color: #ffcc44;
 	font-size: 18px;
-	line-height: 20px;
-	margin: 20px 0 0 0;
+	line-height: 24px;
+	margin: 0 0 6px; 0;
 	font-style: italic;
 	font-weight: normal;
+}
+
+.sliderContent p{
+	color: #ccc;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+.pdfSize {
+	display: block;
+	min-width: 80px;
+	height: 22px;
+	float: left;
+	color: #ccc;
+	font-size: 12px;
+	line-height: 14px;
+	margin-right: 25px;
+}
+
+i {
+	display: block;
+	width: 22px;
+	height: 22px;
+	float: left;
+}
+
+.pdfSize i {
+	
+	background: url('../images/Microsave_sprite.png') no-repeat -7px -103px;
+	margin-right: 7px;
+}
+
+a.download {
+	display: block;
+	width: 93px;
+	height: 13px;
+	float: left;
+	border-radius: 4px;
+	border: 1px solid #bdbdbd;
+	background-image: linear-gradient(bottom, #e0e5ed, #f6f6f7);
+	background-image: -webkit-linear-gradient(bottom, #e0e5ed, #f6f6f7);
+
+	color:#3355aa;
+	font-size: 14px;
+	line-height: 16px;
+	font-style: italic;
+	text-shadow:1px 1px 2px #fff;
+	padding: 3px 5px 9px 5px;
+}
+
+a.download i {
+	background: url('../images/Microsave_sprite.png') no-repeat -8px -126px;
+	margin-right: 2px;
+}
+
+.tabHolder {
+	position: relative;
+
+}
+
+ul.tabNav {
+	float: left;
+	margin: 0;
+	position: absolute;
+	top: -42px;
+}
+ul.tabNav li {
+	float: left;
+	margin-right: 10px;
+}
+
+ul.tabNav li a{
+	display: block;
+	padding: 10px 15px;
+	font-size: 20px;
+	line-height: 22px;
+	font-style: italic;
+	color: #fff;
+	box-shadow: 0 -1px 3px #000, inset  0 1px 1px rgba(255,255,255,.2);
+
+	background-image:linear-gradient(bottom, #204289, #3355aa);
+	background-image:-webkit-linear-gradient(bottom, #204289, #3355aa);
+	background-image:-o-linear-gradient(bottom, #204289, #3355aa);
+	background-image:-moz-linear-gradient(bottom, #204289, #3355aa);
+	background-image:-ms-linear-gradient(bottom, #204289, #3355aa);
+
+	text-shadow: 0 1px 2px #003377;
+	border-radius: 4px 4px 0 0;
+}
+
+ul.tabNav li a:hover, ul.tabNav li a.active2 {
+	background: #fff;
+	color: #222;
+	text-shadow:none;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+.tabContent {
+	background: #fff;
+	padding: 30px 25px 0 25px;
+	display: none;
+}
+.tabContent p{
+	font-size: 24px;
+	line-height: 30px;
+	color: #222222;
+	text-align: center;
+	margin: 0;
 }
 
 
@@ -204,25 +352,27 @@ text-shadow:0 0 6px #000;
 
 .cycle-pager { 
     text-align: center; 
-    width: 100%; 
+    /*width: 100%; */
     z-index: 500; 
     position: absolute; 
     /*top: 400px; */
-    top: 90%; 
+    top: 200px; 
+    left: 0;
     overflow: hidden;
 }
 .cycle-pager span { 
-    font-family: arial; 
-    font-size: 50px; 
-    width: 10px; 
-    height: 10px; 
-    display: inline-block; 
-    color: #838383; 
+    width: 25px; 
+    height: 25px; 
+    display: block; 
+    background: url('../images/Microsave_sprite.png') no-repeat -0px -176px;
     cursor: pointer; 
-    margin-right: 10px;
+    color: transparent;
+    /*margin-right: 10px;*/
+    margin-bottom: 6px;
 }
 .cycle-pager span.cycle-pager-active { 
-	color: #fff;
+	/*color: #fff;*/
+	background: url('../images/Microsave_sprite.png') no-repeat -0px -208px;
 }
 .cycle-pager > * { 
 	cursor: pointer;
