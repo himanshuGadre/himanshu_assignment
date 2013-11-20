@@ -55,7 +55,7 @@ a.logo {
 	position: absolute;
 	width: 200px;
 	height: 65px;
-	float: left;
+	/*float: left;*/
 	background: #fff url('../images/MicroSave_Logo.jpg') no-repeat;
 	background-position: center center;
 	text-indent: -10000px;
@@ -187,7 +187,7 @@ ul.slider {
 .sliderContent {
 	/*width: 380px;*/
 	max-width: 360px;
-	margin:20px 40px 0 0;
+	margin:20px 45px 0 0;
 	float: right;
 	font-family: georgia;
 
@@ -209,14 +209,11 @@ ul.slider {
 	margin-bottom: 20px;
 }
 
-.pdfSize {
+.pdfSizeHolder {
 	display: block;
 	min-width: 80px;
 	height: 22px;
 	float: left;
-	color: #ccc;
-	font-size: 12px;
-	line-height: 14px;
 	margin-right: 25px;
 }
 
@@ -227,10 +224,16 @@ i {
 	float: left;
 }
 
-.pdfSize i {
+.pdfSizeHolder i {
 	
 	background: url('../images/Microsave_sprite.png') no-repeat -7px -103px;
 	margin-right: 7px;
+}
+
+.pdfSize {
+	color: #ccc;
+	font-size: 12px;
+	line-height: 14px;
 }
 
 a.download {
@@ -258,14 +261,14 @@ a.download i {
 
 .tabHolder {
 	position: relative;
-
+	margin-bottom: 30px;
 }
 
 ul.tabNav {
 	float: left;
 	margin: 0;
 	position: absolute;
-	top: -42px;
+	top: -41px;
 }
 ul.tabNav li {
 	float: left;
@@ -360,6 +363,7 @@ ul.tabNav li a:hover, ul.tabNav li a.active2 {
     left: 0;
     overflow: hidden;
 }
+
 .cycle-pager span { 
     width: 25px; 
     height: 25px; 
@@ -379,6 +383,16 @@ ul.tabNav li a:hover, ul.tabNav li a.active2 {
 }
 
 /* pager */
+
+a.network {
+	/*display: block;*/
+	width: 45px;
+	height: 50px;
+	float: right;
+	position: absolute;
+	right: 0;
+	background: url('../images/Microsave_sprite.png') no-repeat -0px -242px;
+}
 
 /*ul.slider {
 	margin-left: 0;
@@ -421,3 +435,109 @@ ul.slider .sliderText p {
 	color: #82878b;
 }
 */
+
+.contentHolder {
+	border-radius: 3px;
+	border:1px solid #cccccc;
+	box-shadow: 0 -2px 5px #ededed;
+}
+
+.leftContent {
+	width: 639px;
+	float: left;
+	border-right: 1px solid #dcdcdc;
+
+}
+
+.search {
+	background: #fffef4;
+	min-height: 160px;
+	border-top-left-radius: 3px;
+}
+/* Tab 2 starts*/
+.tabHolder2 {
+	/*position: relative;*/
+	margin-bottom: 30px;
+}
+
+ul.tabNav2 {
+	float: left;
+	margin: 0 0 0 30px;
+	position: absolute;
+	/*top: -40px;*/
+}
+ul.tabNav2 li {
+	float: left;
+	margin-right: 5px;
+}
+
+ul.tabNav2 li a{
+	display: block;
+	padding: 10px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	font-style: italic;
+	color: #3355aa;
+	border: 1px solid #bdbdbd; 
+	border-bottom: none;
+
+	background-image:linear-gradient(bottom, #e6edf5, #fff);
+	background-image:-webkit-linear-gradient(bottom, #e6edf5, #fff);
+	background-image:-o-linear-gradient(bottom, #e6edf5, #fff);
+	background-image:-moz-linear-gradient(bottom, #e6edf5, #fff);
+	background-image:-ms-linear-gradient(bottom, #e6edf5, #fff);
+
+	text-shadow: 0 1px 2px #fff;
+	border-radius: 4px 4px 0 0;
+}
+
+ul.tabNav2 li a:hover, ul.tabNav2 li a.active2 {
+	background: #fff;
+	color: #222;
+	text-shadow:none;
+	text-decoration: none;
+	box-shadow: none;
+	border-bottom: none;
+}
+ul.tabContent2Holder {
+	float: left;
+	margin: 41px 0 0 0;
+	border-top: 1px solid #dbdbdb;
+}
+
+li.tabContent2 {
+	background-image:linear-gradient(bottom, #f2f5fa, #fff);
+	background-image:-webkit-linear-gradient(bottom, #f2f5fa, #fff);
+	background-image:-o-linear-gradient(bottom, #f2f5fa, #fff);
+	background-image:-moz-linear-gradient(bottom, #f2f5fa, #fff);
+	background-image:-ms-linear-gradient(bottom, #f2f5fa, #fff);
+
+	padding: 30px 20px 0 20px;
+	border-bottom: 1px solid #bdbdbd;
+	/*display: none;*/
+}
+li.tabContent2 h6 {
+	font-size: 18px;
+	line-height: 20px;
+	color: #222;
+	margin:0 0 8px 0;
+}
+/*li.tabContent2 p{
+	font-size: 24px;
+	line-height: 30px;
+	color: #222222;
+	text-align: center;
+	margin: 0;
+}*/
+/* Tab 2 ends*/
+
+.rightContent {
+	width: 298px;
+	float: right;
+	/*min-height: 200px;*/
+	padding-top: 5px;
+}
+
+.rightContent img {
+	float: right;
+}
