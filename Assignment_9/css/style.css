@@ -245,18 +245,23 @@ a.download {
 	border: 1px solid #bdbdbd;
 	background-image: linear-gradient(bottom, #e0e5ed, #f6f6f7);
 	background-image: -webkit-linear-gradient(bottom, #e0e5ed, #f6f6f7);
+	background-image: -moz-linear-gradient(bottom, #e0e5ed, #f6f6f7);
+	background-image: -o-linear-gradient(bottom, #e0e5ed, #f6f6f7);
 
 	color:#3355aa;
 	font-size: 14px;
 	line-height: 16px;
 	font-style: italic;
 	text-shadow:1px 1px 2px #fff;
-	padding: 3px 5px 9px 5px;
+	/*padding: 3px 5px 9px 5px;*/
+	padding: 5px 5px 8px 8px;
 }
 
 a.download i {
-	background: url('../images/Microsave_sprite.png') no-repeat -8px -126px;
-	margin-right: 2px;
+	background: url('../images/Microsave_sprite.png') no-repeat -10px -129px;
+	margin-right: 8px;
+	width: 18px;
+	height: 18px;
 }
 
 .tabHolder {
@@ -275,7 +280,7 @@ ul.tabNav li {
 	margin-right: 10px;
 }
 
-ul.tabNav li a{
+ul.tabNav li a {
 	display: block;
 	padding: 10px 15px;
 	font-size: 20px;
@@ -368,7 +373,7 @@ ul.tabNav li a:hover, ul.tabNav li a.active2 {
     width: 25px; 
     height: 25px; 
     display: block; 
-    background: url('../images/Microsave_sprite.png') no-repeat -0px -176px;
+    background: url('../images/Microsave_sprite.png') no-repeat 0px -176px;
     cursor: pointer; 
     color: transparent;
     /*margin-right: 10px;*/
@@ -376,7 +381,7 @@ ul.tabNav li a:hover, ul.tabNav li a.active2 {
 }
 .cycle-pager span.cycle-pager-active { 
 	/*color: #fff;*/
-	background: url('../images/Microsave_sprite.png') no-repeat -0px -208px;
+	background: url('../images/Microsave_sprite.png') no-repeat 0px -208px;
 }
 .cycle-pager > * { 
 	cursor: pointer;
@@ -391,7 +396,7 @@ a.network {
 	float: right;
 	position: absolute;
 	right: 0;
-	background: url('../images/Microsave_sprite.png') no-repeat -0px -242px;
+	background: url('../images/Microsave_sprite.png') no-repeat 0px -242px;
 }
 
 /*ul.slider {
@@ -497,8 +502,9 @@ ul.tabNav2 li a:hover, ul.tabNav2 li a.active2 {
 	text-shadow:none;
 	text-decoration: none;
 	box-shadow: none;
-	border-bottom: none;
+	border-bottom: 1px solid #fff;
 }
+
 ul.tabContent2Holder {
 	float: left;
 	margin: 41px 0 0 0;
@@ -506,22 +512,63 @@ ul.tabContent2Holder {
 }
 
 li.tabContent2 {
-	background-image:linear-gradient(bottom, #f2f5fa, #fff);
+	background: url('../images/Microsave_sprite.png') repeat-x left bottom;
+	/*background-image:linear-gradient(bottom, #f2f5fa, #fff);
 	background-image:-webkit-linear-gradient(bottom, #f2f5fa, #fff);
 	background-image:-o-linear-gradient(bottom, #f2f5fa, #fff);
 	background-image:-moz-linear-gradient(bottom, #f2f5fa, #fff);
 	background-image:-ms-linear-gradient(bottom, #f2f5fa, #fff);
-
-	padding: 30px 20px 0 20px;
+*/
+	padding: 30px 20px 20px 20px;
 	border-bottom: 1px solid #bdbdbd;
+	border-top: 2px solid #f2f2f2;
 	/*display: none;*/
 }
+
+ul.tabContent2Holder li:first-child {
+	border-top: none;
+}
+
 li.tabContent2 h6 {
 	font-size: 18px;
 	line-height: 20px;
 	color: #222;
 	margin:0 0 8px 0;
 }
+.author {
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+	color: #444;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+.greyText {
+	color: #888;
+}
+.loadMoreHolder {
+	text-align: center;
+}
+
+a.loadMore {
+	/*display: block;*/
+	padding: 10px 15px;
+	font-size: 20px;
+	line-height: 22px;
+	font-style: italic;
+	color: #fff;
+	box-shadow: 0 -1px 3px #000, inset  0 1px 1px rgba(255,255,255,.2);
+
+	background-image:linear-gradient(bottom, #204289, #3355aa);
+	background-image:-webkit-linear-gradient(bottom, #204289, #3355aa);
+	background-image:-o-linear-gradient(bottom, #204289, #3355aa);
+	background-image:-moz-linear-gradient(bottom, #204289, #3355aa);
+	background-image:-ms-linear-gradient(bottom, #204289, #3355aa);
+
+	text-shadow: 0 1px 2px #003377;
+	border-radius: 4px;
+}
+
 /*li.tabContent2 p{
 	font-size: 24px;
 	line-height: 30px;
@@ -540,4 +587,50 @@ li.tabContent2 h6 {
 
 .rightContent img {
 	float: right;
+}
+
+.footer {
+	background: url('../images/footer_BG.jpg');
+}
+.footerNav {
+	margin-top: 20px;
+
+}
+ul.home {
+	float: left;
+}
+
+ul.home li, ul.sitemap li {
+	float: left;
+	border-left: 1px solid #c4c4c4;
+	padding: 0 8px;
+}
+
+ul.home li:first-child, ul.sitemap li:first-child {
+	border-left: none;
+}
+
+ul.home li a, ul.sitemap li a {
+	font-size: 14px;
+	line-height: 16px;
+	color: #3355aa;
+	font-style: italic;
+	text-decoration: none;
+}
+
+ul.home li a:hover, 
+ul.sitemap li a:hover, 
+ul.home li a.active3 {
+	color: #222222;
+}
+
+ul.sitemap {
+	float: right;
+}
+
+.copyright {
+
+}
+.marginBottom {
+	margin-bottom: 20px;
 }
