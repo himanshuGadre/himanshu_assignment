@@ -34,6 +34,8 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
 	
 	min-height: 70px;
 	background: #555;
+	cursor: pointer;
+	position: relative;
 }
 
 .box {
@@ -58,11 +60,14 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
 	text-align: center;
 
 }
-
-a.cross, a.circle{
+*/
+.cross, .circle{
 	display: none;
 	position: absolute;
 	top:15px;
 	color: #eee;
 	text-decoration: none;
-}*/
+}
+.noCursor {
+	cursor: default;
+}

@@ -71,3 +71,17 @@ a.cross, a.circle{
 	color: #eee;
 	text-decoration: none;
 }
+
+/*Copy css starts*/
+
+.box span {
+	display: none;
+	position: absolute;
+	top:15px;
+	color: #eee;
+	text-decoration: none;
+}
+
+
+
+/*Copy css starts*/

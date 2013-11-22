@@ -13,6 +13,7 @@
 
         <script type="text/javascript">
         $(document).ready(function(){
+            alert("hello");
         	var count = 0;
 
         	$(".span1").click(function(){
@@ -21,14 +22,13 @@
                 var userSelectedBox = ($(this).attr("id"));
                 // alert(" Id is"+ userSelected);
 
-
                if (count%2 == 0) {
                     $(this).children(".circle").show();
                     $(this).off("click");
                     $(this).addClass("noCursor");
                    // var userValue= $(this).children().text()
-                   var userValue= "circle"
-                   alert(" Id is "+ userSelectedBox+"and value is "+userValue);
+                   var userValue= "circle";
+                   alert(" Id is "+ userSelectedBox+" and value is "+userValue);
                 }
                 else 
                 {
@@ -36,10 +36,32 @@
                 $(this).children(".cross").show();
                 $(this).off("click");
                 $(this).addClass("noCursor");
-                var userValue="cross"
-                alert(" Id is "+ userSelectedBox+"and value is "+userValue);
+                var userValue="cross";
+                alert(" Id is "+ userSelectedBox+" and value is "+userValue);
                 };
 
+                switch (userSelectedBox)
+                {
+                    case 1:
+                    var box1 = "userValue";
+                    //alert(box1);
+                        break;
+
+                        case 2:
+                    var box2 = "userValue";
+                    //alert(box2);
+                        break;
+
+                        case 3:
+                    var box1 = "userValue";
+                    //alert(box3);
+                        break;
+
+                        case 4:
+                    var box2 = "userValue";
+                    //alert(box4);
+                        break;
+                }
         		
         	});
         });
