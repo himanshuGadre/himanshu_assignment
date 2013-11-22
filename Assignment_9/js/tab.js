@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$("#resources").show();
 
 	
-	$(".tabBtn").click(function(){
+	$(".tabBtn").click(function(e){
 		var current = $(this).attr("href");
 
 		$(".tabContent").hide();
@@ -13,5 +13,6 @@ $(document).ready(function(){
 		
 		$(this).addClass("active2");
 		$(current).show();
+		e.preventDefault();
 	});
 });
