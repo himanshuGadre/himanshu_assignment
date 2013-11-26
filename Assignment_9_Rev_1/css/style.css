@@ -22,14 +22,15 @@ p {
 
 /* Body Begin */
 
-#wrapper {}
+.pageWrapper {}
 
 .navbar .container {
 	margin: 0 auto;
 	width: 940px;
+	position: relative;	
  }
 
-#header {
+.header {
 	box-shadow: 0px 1px 5px #3b3b3b	;
 
 	background-image:linear-gradient(bottom, #ebf0f7, #ffffff);
@@ -42,16 +43,21 @@ p {
 a.logo {
 	display: block;
 	position: absolute;
-	width: 200px;
-	height: 65px;
-	/*float: left;*/
-	background: #fff url('../images/MicroSave_Logo.jpg') no-repeat;
-	background-position: center center;
+	width: 221px;
+	height: 72px;
+
 	text-indent: -10000px;
 	z-index: 999;
-	box-shadow: 0px 0px 5px #bbbdc0;
+	background: url('../images/MicroSave_Logo.png') no-repeat;
+	border: 0;
+
+	/*float: left;*/
+	
+	/*background-position: center center;*/
+	
+	/*box-shadow: 0px 0px 5px #bbbdc0;
 	border-bottom-left-radius:4px; 
-	border-bottom-right-radius:4px; 
+	border-bottom-right-radius:4px;*/ 
 }
 
 
@@ -63,7 +69,7 @@ a.logo {
 .navbar {
 	margin:0; 
 	background-color: transparent;
-	background: url('../images/Microsave_sprite.png') repeat-x 0px -498px;
+	background: url('../images/Microsave_header_BG.gif') repeat-x;
 }
 
 .navbar-inner {
@@ -148,16 +154,14 @@ a.logo {
 	margin-bottom: 70px;
 }
 .headingSlider {
-	margin: 55px 0 40px 0;
-
 }
 
-h1{
+h2{
 color: #fff;
 font-size: 28px;
 line-height: 30px;
 text-align: center;
-margin: 0;
+margin: 55px 0 40px 0;
 font-weight: normal;
 text-shadow:0 0 6px #000;
 }
@@ -262,7 +266,7 @@ a.download i {
 }
 
 .bodyContent {
-
+	padding-bottom: 20px;
 }
 
 .tabHolder {
@@ -396,7 +400,7 @@ a.network {
 	/*display: block;*/
 	width: 45px;
 	height: 50px;
-	float: right;
+	/*float: right;*/
 	position: fixed;
 	right: 0;
 	top: 220px;
@@ -489,7 +493,7 @@ ul.slider .sliderText p {
 }
 .search a.searchBtn i {
 	height: 18px;
-	background: url('../images/Microsave_sprite.png') no-repeat -7px -149px;
+	background: url('../images/Microsave_sprite.png') no-repeat -7px -147px;
 	margin-right: 5px;
 
 }
@@ -575,17 +579,9 @@ ul.tabContent2Holder {
 
 li.tabContent2 {
 	background: url('../images/Blue_gradient.jpg') repeat-x left bottom;
-	/*background-image:linear-gradient(bottom, #f2f5fa, #fff);
-	background-image:-webkit-linear-gradient(bottom, #f2f5fa, #fff);
-	background-image:-o-linear-gradient(bottom, #f2f5fa, #fff);
-	background-image:-moz-linear-gradient(bottom, #f2f5fa, #fff);
-	background-image:-ms-linear-gradient(bottom, #f2f5fa, #fff);
-*/
 	padding: 30px 20px 20px 20px;
 	border-bottom: 1px solid #bdbdbd;
 	box-shadow: 0px 2px 0px 0px #f2f2f2;
-	/*border-top: 2px solid #f2f2f2;*/
-	/*display: none;*/
 }
 
 ul.tabContent2Holder li:first-child {
@@ -740,6 +736,7 @@ li.linkedIn i {
 .marginBottom {
 	margin-bottom: 20px;
 }
-.paddingBottom {
+
+/*.paddingBottom {
 	padding-bottom: 20px;
-}
+}*/
