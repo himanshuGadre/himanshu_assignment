@@ -87,7 +87,7 @@ a.logo {
 
 .navbar .mainNav li {
 	float: left;
-	background: url('../images/divider_Line.jpg') no-repeat right bottom;
+	
 }
 
 .navbar .mainNav li.empty {
@@ -110,6 +110,7 @@ a.logo {
 	font-style: italic;
 	padding:15px 14px;
 	padding:15px 3px 15px 14px;
+	background: url('../images/divider_Line.jpg') no-repeat right bottom;
 
 }
 .mainNav li a i {
@@ -127,10 +128,6 @@ a.logo {
 	background: url('../images/Microsave_sprite.png') no-repeat -9px -32px;
 }
 
-/*.mainNav li.about a:hover i {
-	background: url('../images/Microsave_sprite.png') no-repeat -31px -32px;
-}*/
-
 .mainNav li.blog a i {
 	background: url('../images/Microsave_sprite.png') no-repeat -9px -54px;
 }
@@ -138,17 +135,20 @@ a.logo {
 	background: url('../images/Microsave_sprite.png') no-repeat -9px -76px;
 }
 
-.navbar .mainNav li a:hover, .navbar .mainNav li a.active {
+.navbar .mainNav li:hover, .navbar .mainNav li.active a {
 
 	color: #222222;
-	background: #fff url('../images/divider_Line.jpg') no-repeat right bottom;
+	background: #fff;
 	text-decoration: none;
+}
+
+.navbar .mainNav li.active a {
+	background: #fff url('../images/divider_Line.jpg') no-repeat right bottom;
 }
 
 
 .sliderWrapper {	
 	background: url('../images/slider_BG.jpg');
-	/*min-height: 442px;*/
 }
 .sliderHolder {
 	margin-bottom: 70px;
@@ -171,6 +171,7 @@ text-shadow:0 0 6px #000;
 	font-style: italic;
 	font-weight: bold;
 }
+
 ul.slider {
 	margin: 0;
 }
@@ -210,6 +211,10 @@ ul.slider {
 	margin-bottom: 20px;
 }
 
+.pdfWrapper {
+
+}
+
 .pdfSizeHolder {
 	display: block;
 	min-width: 80px;
@@ -218,15 +223,15 @@ ul.slider {
 	margin-right: 25px;
 }
 
-i {
+/*i {
+	
+}*/
+
+.pdfSizeHolder i {
 	display: block;
 	width: 22px;
 	height: 22px;
 	float: left;
-}
-
-.pdfSizeHolder i {
-	
 	background: url('../images/Microsave_sprite.png') no-repeat -7px -103px;
 	margin-right: 7px;
 }
@@ -719,6 +724,7 @@ ul.socialMedia li {
 ul.socialMedia li i{
 	width: 17px;
 	height: 18px;
+	float: left;
 }
 
 li.facebook i {
