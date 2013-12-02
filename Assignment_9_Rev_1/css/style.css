@@ -87,14 +87,18 @@ a.logo {
 
 .navbar .mainNav li {
 	float: left;
-	
+	background: url('../images/divider_Line.jpg') no-repeat right bottom;
 }
 
-.navbar .mainNav li.empty {
+.navbar .mainNav li:first-child a{
+	background: url('../images/divider_Line.jpg') no-repeat left bottom;
+}
+
+/*.navbar .mainNav li.empty {
 	width: 2px;
 	height: 47px;
 	background: url('../images/divider_Line.jpg')no-repeat left bottom ;
-}
+}*/
 
 /*.navbar .mainNav li:first-child {
 	background: url('../images/divider_Line.jpg') ;
@@ -110,7 +114,7 @@ a.logo {
 	font-style: italic;
 	padding:15px 14px;
 	padding:15px 3px 15px 14px;
-	background: url('../images/divider_Line.jpg') no-repeat right bottom;
+	/*background: url('../images/divider_Line.jpg') no-repeat right bottom;*/
 
 }
 .mainNav li a i {
